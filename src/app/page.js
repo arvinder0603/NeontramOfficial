@@ -1,9 +1,9 @@
-import LandPage from "@/pages/LandPage";
+import LandPage from "../pages/LandPage/LandPage";
 
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-slate-50 ">
    <LandPage/>
     </main>
   )
