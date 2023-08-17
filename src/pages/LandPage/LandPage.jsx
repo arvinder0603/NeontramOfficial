@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import doct from "../LandPage/../../assets/doct.jpg"
 import { AiFillCheckSquare } from "react-icons/ai";
-import object from "../LandPage/../../assets/object.jpg"
+
 import { Front } from '@/components/Front';
 import Why from '@/components/Why';
 import Products from '@/components/Products';

@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import doct from "../assets/doct.jpg"
 import { AiFillCheckSquare } from "react-icons/ai";
-import object from "../assets/object.jpg"
 
 
 export const Front = () => {
