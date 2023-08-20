@@ -9,10 +9,12 @@ import Why from '@/components/Why';
 import Products from '@/components/Products';
 import Review from '@/components/Review';
 import Team from '@/components/Team';
+import Footer from '@/components/Footer';
+import Coursel from '@/UI/Coursel';
 
 const LandPage = () => {
   return (
-    <div className=" bg-cover bg-centerc bg-slate-50 h-[100vh]" >
+    <div className=" bg-cover bg-centerc  h-[100vh]" >
       <Navi/>
 
       <Front/>
@@ -21,9 +23,13 @@ const LandPage = () => {
 
       <Products/>
 
-      <Review/>
+      {/* <Review/> */}
+
+    
 
       <Team/>
+
+      <Footer/>
 
      
     </div>

@@ -2,14 +2,14 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div>
+    <div className='mt-[130px]'> 
      
-     <div className='grid grid-cols-2 grid-rows-2 h-[100vh] gap-11 bg-slate-50'>
+     <div className='grid lg:grid-cols-2 lg:grid-rows-2 h-[100vh] gap-11 '>
         <div className='flex justify-center items-center' > 
             <h1 className='text-[70px] font-bold  '>Our Products</h1>
         </div>
 
-        <div className='bg-[#de9321] rounded-3xl shadow-2xl  shadow-[#de9321] flex justify-center items-center'>
+        <div className='bg-[#de9321]  rounded-3xl shadow-2xl  shadow-[#de9321] flex justify-center items-center'>
                 <h1>PR1 Image</h1>
          
         </div>

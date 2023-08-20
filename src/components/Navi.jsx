@@ -7,7 +7,7 @@ const Navi = () => {
       
       
       <div className='flex justify-center m-5'>
-        <h1 className='text-[30px] font-extrabold text-[#4166f9]'>NEONTRAM</h1>
+        <h1 className='text-[30px] font-extrabold text-[#4166f9]'>Neontram</h1>
 
       </div>
 

@@ -4,7 +4,7 @@ import man from "../assets/man.png"
 import { IconName } from "react-icons/fc";
 const Why = () => {
     return (
-        <div className='grid lg:grid-cols-2 h-[100vh] bg-slate-50 mt-36 '>
+        <div className='grid lg:grid-cols-2 h-[100vh]  mt-36 '>
 
             <div className='lg:hidden flex'>
                 <Image src={man} alt="Family" />
