@@ -8,10 +8,10 @@ const Team = () => {
  
 
   return (
-    <div className='flex justify-center h-[100vh] mt-[320px]'>
+    <div className='flex justify-center h-[100vh] mt-[320px] bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/bg.png?token=GHSAT0AAAAAACD7TIVS67JIWOB7XCREY6SGZHCKUFQ")] bg-no-repeat bg-cover'>
 
  
-    <div className=' flex flex-col lg:grid lg:grid-cols-3 gap-28 lg:grid-rows-2 gap-y-28 item-center'>
+    <div className=' flex flex-col lg:grid lg:grid-cols-3 mt-52 gap-28 lg:grid-rows-2 gap-y-28 item-center'>
       <h1 className='text-[50px] font-extrabold'>Our team</h1>
       <div className='h-[200px] bg-slate-100  w-[300px] flex justify-center flex-col text-center shadow-2xl shadow-[#353B3C]'>
         <Image src={fam} alt='/'></Image>
