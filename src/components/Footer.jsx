@@ -6,16 +6,16 @@ import neo from "../assets/neo.jpg"
 
 const Footer = () => {
   return (
-    <footer className='  py-12 lg:mt-0 mt-[600px]'>
+    <footer className='  py-12 mt-[200px] bg-black text-white'>
     <div className='container mx-auto px-4 lg:flex lg:justify-between'>
       <div className='flex justify-center flex-col items-center  mb-6 lg:w-1/3'>
         <h2 className='text-3xl font-extrabold mb-4 '>Neontram</h2>
         <p className='text-lg'>
           We care for your child.
         </p>
-        <div className='flex justify-center items-center'>
+        {/* <div className='flex justify-center items-center'>
           <Image  src={neo} alt='/'></Image>
-        </div>
+        </div> */}
       </div>
       <div className='mb-6 lg:w-1/3 flex  flex-col item-center' >
         <h2 className='text-3xl font-extrabold mb-4'>Quick Links</h2>
