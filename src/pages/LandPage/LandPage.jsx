@@ -14,7 +14,7 @@ import Coursel from '@/UI/Coursel';
 
 const LandPage = () => {
   return (
-    <div className=" bg-cover bg-centerc  h-[100vh]" >
+    <div className=" bg-cover  h-[100vh]" >
       <Navi/>
 
       <Front/>
