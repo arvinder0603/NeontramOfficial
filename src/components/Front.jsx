@@ -6,9 +6,9 @@ import { AiFillCheckSquare } from "react-icons/ai";
 
 export const Front = () => {
   return (
-    <div className='grid h-[100vh] lg:grid-cols-2 lg:mt-0  mt-12'>
+    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-12'>
     
-    <div className='flex lg:hidden justify-center items-center'>
+    <div className='flex lg:hidden  justify-center items-center'>
     <Image src={doct} alt="Family" />
     </div>
     
