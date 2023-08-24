@@ -1,4 +1,6 @@
 import React from 'react'
+import neon from "../assets/neon.png"
+
 
 
 const Navi = () => {

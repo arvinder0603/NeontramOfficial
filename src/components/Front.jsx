@@ -1,25 +1,33 @@
 import React from 'react';
 import Image from 'next/image';
-import doct from "../assets/doct.jpg"
+import doct from "../assets/doct.png"
 import { AiFillCheckSquare } from "react-icons/ai";
-
+import blood from '../assets/blood.png'
+import sleep from '../assets/sleep.png'
+import mood from '../assets/mood.png'
 
 export const Front = () => {
   return (
-    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-12'>
+    <div className='grid  h-[100vh] bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/Untitled%20design%20(1).png?token=GHSAT0AAAAAACD7TIVTG4IWG6TPNC6MNPBAZHFBIZA")]  lg:grid-cols-2 lg:mt-0  mt-8'>
     
     <div className='flex lg:hidden  justify-center items-center'>
-    <Image src={doct} alt="Family" />
+       
+    <Image className='' src={doct} alt="Family" />
     </div>
     
     <div className='flex justify-center flex-col gap-4 items-center text-[30px] text-center font-extrabold'>
+      <div className='flex gap-20'>
+
+        <Image className='h-[150px] w-[130px]' src={blood} alt='/'></Image>
+        <Image  className='h-[150px] w-[130px]' src={sleep} alt='/'></Image>
+      </div>
       <div className='flex justify-start '>
       <h1 className='text-[17px] text-gray-500 '>Health + Precaution </h1>
       </div>
 
-      <div className='flex justify-center'>
-      <h1 className='lg:text-[30px] text-[20px] text-gray-600' ><span className='  text-[#4166f9] '>At Neontram </span>
-        we create brighter beginnings for your little ones. As pioneers in newborn products, we design smart solutions that make parenting easier and enrich early life stages. Our excellence and passion shape a better future for the next generation.
+      <div className='flex justify-center  p-5 ml-5'>
+      <h1 className='lg:text-[40px] text-[20px] text-gray-600' ><span className='  text-[#4166f9] '>At Neontram </span>
+        we create brighter begnnings for your little ones. As pioneers in newborn products, we design smart solutions that make parenting easier and enrich early life stages. Our excellence and passion shape a better future for the next generation.
        </h1>
       </div>
        
@@ -58,10 +66,20 @@ export const Front = () => {
         </div>
       
     </div>
-
+    <div className='lg:flex hidden justify-center flex-col '>
     <div className='lg:flex hidden justify-center items-center'>
     <Image src={doct} alt="Family" />
+    
+    
     </div>
+     <div className='flex justify-center gap-20'>
+
+        <Image className='h-[150px] w-[130px]' src={blood} alt='/'></Image>
+        <Image  className='h-[150px] w-[130px]' src={mood} alt='/'></Image>
+      </div>
+
+    </div>
+   
     </div>
     
   )

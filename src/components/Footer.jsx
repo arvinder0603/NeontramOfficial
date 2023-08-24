@@ -15,7 +15,7 @@ const Footer = () => {
           We care for your child.
         </p>
         <div className='flex justify-start items-center'>
-          <Image  src={image} alt='/'></Image>
+          <Image  className='h-[200px] w-[200px]' src={image} alt='/'></Image>
         </div>
       </div>
       <div className='mb-6 lg:w-1/3 flex  flex-col item-center' >
