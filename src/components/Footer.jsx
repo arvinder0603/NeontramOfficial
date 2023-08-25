@@ -7,7 +7,7 @@ import image from "../assets/image.png"
 
 const Footer = () => {
   return (
-    <footer className='py-12 text-[#290025]  mt-[100px] flex justify-center flex-col bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/wave.png?token=GHSAT0AAAAAACD7TIVS3XX4QTJX4LTSQDNKZHCLJIA")] bg-no-repeat bg-cover '>
+    <footer className='py-12 text-[#290025]  mt-[100px] flex justify-center flex-col bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/wave.png?token=GHSAT0AAAAAACD7TIVSB6MHJNFHIZSPCGFEZHJBMNQ")] bg-no-repeat bg-cover '>
     <div className='container flex justify-center mx-auto px-4 lg:mt-0 lg:flex mt-[700px] lg:justify-between'>
       <div className='flex justify-center flex-col items-center  mb-6 lg:w-1/3'>
         <h2 className='lg:text-[40px] font-extrabold mb-4 text-[#f83ce5] '>Neontram</h2>

@@ -4,7 +4,7 @@ const Products = () => {
   return (
     <div className='mt-[130px]'> 
      
-     <div className='grid lg:grid-cols-2 lg:grid-rows-2 h-[100vh] gap-11 '>
+     <div className='grid lg:grid-cols-2 lg:grid-rows-2 gap-11 '>
         <div className='flex justify-center items-center' > 
             <h1 className='text-[70px] font-bold  '>Our Products</h1>
         </div>

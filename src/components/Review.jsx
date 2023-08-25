@@ -5,7 +5,7 @@ import { AiOutlineStar} from "react-icons/ai";
 import Image from 'next/image';
 const Review = () => {
   return (
-    <div className='grid grid-rows-2 h-[100vh]'>
+    <div className='grid grid-rows-2 '>
       
       <div className='flex justify-center flex-col items-center'>
         <h1 className='lg:text-[50px] text-[27px] font-bold'>What people think about us</h1>

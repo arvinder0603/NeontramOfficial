@@ -5,10 +5,11 @@ import { AiFillCheckSquare } from "react-icons/ai";
 import blood from '../assets/blood.png'
 import sleep from '../assets/sleep.png'
 import mood from '../assets/mood.png'
+import background from "../assets/background.png"
 
 export const Front = () => {
   return (
-    <div className='grid  h-[100vh] bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/Untitled%20design%20(1).png?token=GHSAT0AAAAAACD7TIVTG4IWG6TPNC6MNPBAZHFBIZA")]  lg:grid-cols-2 lg:mt-0  mt-8'>
+    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-8'>
     
     <div className='flex lg:hidden  justify-center items-center'>
        
