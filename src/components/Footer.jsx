@@ -2,13 +2,13 @@ import React from 'react'
 import Link from 'next/link';
 import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare} from "react-icons/ai";
 import Image from 'next/image';
-import neo from "../assets/neo.jpg"
+
 import image from "../assets/image.png"
 
 const Footer = () => {
   return (
     <footer className='py-12 text-white  bg-slate-900 mt-[100x] flex justify-center flex-col   '>
-    <div className='container flex justify-center  lg:gap-0 gap-16 mx-auto px-4 lg:mt-0 lg:flex  lg:justify-between'>
+    <div className='container flex justify-center  lg:gap-0 gap-4 mx-auto px-4 lg:mt-0 lg:flex  lg:justify-between'>
       <div className='flex justify-center flex-col items-center  mb-6 lg:w-1/3'>
         <h2 className='lg:text-[40px] font-extrabold mb-4 text-[#f83ce5] '>Neontram</h2>
         <p className='text-lg'>

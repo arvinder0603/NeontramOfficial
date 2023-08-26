@@ -2,10 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import doct from "../assets/doct.png"
 import { AiFillCheckSquare } from "react-icons/ai";
-import blood from '../assets/blood.png'
-import sleep from '../assets/sleep.png'
+import Blood from '../assets/Blood.png'
+import Sleep from '../assets/Sleep.png'
 import mood from '../assets/mood.png'
-import background from "../assets/background.png"
 
 export const Front = () => {
   return (
@@ -19,11 +18,11 @@ export const Front = () => {
     <div className='flex justify-center flex-col gap-4 items-center text-[30px] text-center font-extrabold'>
       <div className='flex gap-20'>
 
-        <Image className='h-[150px] w-[130px]' src={blood} alt='/'></Image>
-        <Image  className='h-[150px] w-[130px]' src={sleep} alt='/'></Image>
+        <Image className='h-[150px] w-[130px]' src={Blood} alt='/'></Image>
+        <Image  className='h-[150px] w-[130px]' src={Sleep} alt='/'></Image>
       </div>
       <div className='flex justify-start '>
-      <h1 className='text-[17px] text-gray-500 '>Health + Precaution </h1>
+      <h1 className='text-[17px] text-gracdy-500 '>Health + Precaution </h1>
       </div>
 
       <div className='flex justify-center  p-5 ml-5'>
@@ -75,7 +74,7 @@ export const Front = () => {
     </div>
      <div className='flex justify-center gap-20'>
 
-        <Image className='h-[150px] w-[130px]' src={blood} alt='/'></Image>
+        <Image className='h-[150px] w-[130px]' src={Blood} alt='/'></Image>
         <Image  className='h-[150px] w-[130px]' src={mood} alt='/'></Image>
       </div>
 
