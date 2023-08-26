@@ -4,7 +4,7 @@ import doct from "../assets/doct.png"
 import { AiFillCheckSquare } from "react-icons/ai";
 import Blood from '../assets/Blood.png'
 import Sleep from '../assets/Sleep.png'
-import mood from '../assets/mood.png'
+import Mood from '../assets/Mood.png'
 
 export const Front = () => {
   return (
@@ -75,7 +75,7 @@ export const Front = () => {
      <div className='flex justify-center gap-20'>
 
         <Image className='h-[150px] w-[130px]' src={Blood} alt='/'></Image>
-        <Image  className='h-[150px] w-[130px]' src={mood} alt='/'></Image>
+        <Image  className='h-[150px] w-[130px]' src={Mood} alt='/'></Image>
       </div>
 
     </div>
