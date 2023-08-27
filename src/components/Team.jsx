@@ -1,5 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import adarsha from '../assets/adarsha.png';
+import bijit from '../assets/bijit.png';
+import doctor from '../assets/doctor.png';
+import fam from '../assets/fam.png';
 
 const Team = () => {
   const teamMembers = [
@@ -7,7 +11,7 @@ const Team = () => {
       name: 'Adarsha Narayan Mallick',
       role: 'CEO, Director',
       bio: 'Ph. D. IIT Ropar',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/adarsha.png?token=GHSAT0AAAAAACD7TIVTFYWWZ4XOOFN57RZSZHLE6SQ',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/adarsha.png',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -17,7 +21,7 @@ const Team = () => {
       name: 'Bijit Basumatary',
       role: 'CO-FOUNDER, CTO.',
       bio: 'M. Tech-Ph. D. IIT Ropar',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/bijit.png?token=GHSAT0AAAAAACD7TIVT7Y35OSAPGOANRMHOZHLE4UQ',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/bijit.png',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -26,7 +30,7 @@ const Team = () => {
       name: 'Dr. Ashish Sahani',
       role: 'SCIENTIFIC ADVISOR',
       bio: 'Assistant Prof ,IIT Ropar',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/doctor.png?token=GHSAT0AAAAAACD7TIVTVTJZVYZYK54HYKNYZHLE7CA',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/doctor.png',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -35,7 +39,7 @@ const Team = () => {
       name: 'Dr. Kamaldeep Arora',
       role: 'CLINICAL-ADVISOR',
       bio: 'Associate Prof, DMC & H Ludhiana',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/advisor.png',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -53,7 +57,7 @@ const Team = () => {
       name: ' Prabhas Chandra',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/3a37002224db9a1cb8f841b01eb6c3379b4d0072/src/assets/DSC_8008-01.jpg?token=AYORZEKWDOXEXTZ6O3VCBDTE5MTI2',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/DSC_8008-01.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -62,7 +66,7 @@ const Team = () => {
       name: 'Gurupad ray',
       role: 'Software Development intern',
       bio: '',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/3a37002224db9a1cb8f841b01eb6c3379b4d0072/src/assets/PhotoFormal.jpg?token=AYORZENWEVJJBYGJ5W5T5OLE5MTI2',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PhotoFormal.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -71,7 +75,7 @@ const Team = () => {
       name: 'Nathasha V P ',
       role: 'Electronic Engineer',
       bio: '',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/3a37002224db9a1cb8f841b01eb6c3379b4d0072/src/assets/PSFix_20230703_142915.jpg?token=AYORZEMTE4KKYDE5TYBQMPLE5MTI2',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PSFix_20230703_142915.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -79,17 +83,18 @@ const Team = () => {
   ];
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font ">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
+          <h1 className="text-[60px] font-medium title-font mb-4 text-gray-900 tracking-widest">
             OUR TEAM
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.
+          <p className="lg:w-2/3 text-[37px] mx-auto leading-relaxed text-base">
+            Meet our Proffesional
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className='flex justify-center'>
+        <div className="flex flex-wrap ">
           {teamMembers.map((member, index) => (
             <div key={index} className="p-4 md:w-1/2 lg:w-1/3">
               <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center">
@@ -130,6 +135,7 @@ const Team = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

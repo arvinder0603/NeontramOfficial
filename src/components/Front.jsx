@@ -4,32 +4,32 @@ import doct from "../assets/doct.png"
 import { AiFillCheckSquare } from "react-icons/ai";
 import Blood from '../assets/Blood.png'
 import Sleep from '../assets/Sleep.png'
-import Mood from '../assets/Mood.png'
-
+import child2 from "../assets/child2.png"
+import kid from "../assets/kid.png"
 export const Front = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center lg:h-[130vh] h-[140vh]  bg-[#F9EBDC]'>
 
  
-    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-8 bg-gray-900'>
+    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-4 '>
     
     <div className='flex lg:hidden  justify-center items-center'>
        
-    <Image className='' src={doct} alt="Family" />
+    <Image className='' src={kid} alt="Family" />
     </div>
     
     <div className='flex justify-center flex-col gap-4 items-center text-[30px] text-center font-extrabold'>
-      <div className='flex gap-20'>
+      <div className='lg:flex  hidden gap-20 '>
 
-        <Image className='h-[150px] w-[130px]' src={Blood} alt='/'></Image>
-        <Image  className='h-[150px] w-[130px]' src={Sleep} alt='/'></Image>
+        <Image className='h-[400px] w-[500px]' src={child2} alt='/'></Image>
+     
       </div>
       <div className='flex justify-start '>
       <h1 className='text-[17px] text-gracdy-500 '>Health + Precaution </h1>
       </div>
 
       <div className='flex justify-center  p-5 ml-5'>
-      <h1 className='lg:text-[40px] text-[20px] text-gray-600' ><span className='  text-[#4166f9] '>At Neontram </span>
+      <h1 className='lg:text-[40px] text-[20px] text-gray-600' ><span className='  text-[#ff9900] '>At Neontram </span>
         we create brighter begnnings for your little ones. As pioneers in newborn products, we design smart solutions that make parenting easier and enrich early life stages. Our excellence and passion shape a better future for the next generation.
        </h1>
       </div>
@@ -69,17 +69,19 @@ export const Front = () => {
         </div>
       
     </div>
+    <div className='flex  lg:hidden gap-20 '>
+
+<Image className='h-[400px] w-[500px]' src={child2} alt='/'></Image>
+
+</div>
     <div className='lg:flex hidden justify-center flex-col '>
     <div className='lg:flex hidden justify-center items-center'>
-    <Image src={doct} alt="Family" />
+    <Image src={kid} alt="Family" />
     
     
     </div>
-     <div className='flex justify-center gap-20'>
-
-        <Image className='h-[150px] w-[130px]' src={Blood} alt='/'></Image>
-        <Image  className='h-[150px] w-[130px]' src={Mood} alt='/'></Image>
-      </div>
+    
+     
 
     </div>
    

@@ -10,7 +10,7 @@ const Review = () => {
  
 
   return (
-    <div className='flex flex-col    mt-[200px]  bg-slate-950  '>
+    <div className='flex flex-col     mt-[200px]  bg-slate-950  '>
       
       <div className='flex justify-center flex-col items-center mb-20'>
         <h1 className='lg:text-[50px] text-[33px] font-bold'>What people think about us</h1>
@@ -20,7 +20,7 @@ const Review = () => {
         </h1>
       </div>
         
-        <div className='mt-10 flex justify-center gap-24  flex-col lg:flex-row'>
+        <div className='mt-10 flex justify-center gap-10  flex-col lg:flex-row'>
 
         <Card src={revdoc} name={"Doc Adarsha"} review=" Lorem ipsum, dolor sit amet consectetur ads,nd n jeherbjfbjjh whjfb jhewb fjhew sfjchb ejshc jsh cjhs cjsdz jhc dszjhc jhsd ipisicing elit. Expedita, id rem?"> </Card>
         <Card src={revdoc} name={"Doc Adarsha"} review=" Lorem ipsum, dolor sit amet consectetur ads,nd n jeherbjfbjjh whjfb jhewb fjhew sfjchb ejshc jsh cjhs cjsdz jhc dszjhc jhsd ipisicing elit. Expedita, id rem?"> </Card> 

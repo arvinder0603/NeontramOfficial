@@ -5,11 +5,11 @@ import neon from "../assets/neon.png"
 
 const Navi = () => {
   return (
-    <div  className='flex justify-between border-b-2 h-[80px] bg-slate-800 '>
+    <div  className='flex justify-between border-b-2 h-[80px]  bg-[#F9EBDC]'>
       
       
       <div className='flex justify-center m-5'>
-        <h1 className='text-[30px] font-extrabold text-[#4166f9]'>Neontram</h1>
+        <h1 className='text-[30px] font-extrabold text-[#ff9900]'>Neontram</h1>
 
       </div>
 

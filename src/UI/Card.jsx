@@ -19,7 +19,7 @@ const Card = (props) => {
 
      <div className='flex justify-center'>
 
-     <Image className='rounded-3xl lg:w-[400px] lg:h-[300px]' src={props.src} ></Image>
+     <Image className='rounded-3xl lg:w-[300px] lg:h-[300px]' src={props.src} ></Image>
 
      </div>
      

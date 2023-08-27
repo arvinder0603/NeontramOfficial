@@ -25,7 +25,7 @@ const Why = () => {
 
   return (
 
-    <div className='flex justify-center bg-slate-800' >
+    <div className='flex justify-center   ' >
 
    
     <div
@@ -35,7 +35,7 @@ const Why = () => {
     >
       <h4 className='flex justify-center font-extrabold font-sans lg:text-[70px] text-[33px] mb-14'>WHY NEONTRAM ?</h4>
 
-      <div className='grid  lg:grid-cols-3 lg:grid-rows-2 gap-44 ml-4'>
+      <div className='grid  lg:grid-cols-3 lg:grid-rows-2 gap-32 ml-4'>
       <div data-aos="fade-up-right" className='flex justify-center content-center  bg-slate-100 lg:h-[300px] h-[200px] lg:w-[400px] w-[300px]    rounded-2xl shadow-2xl shadow-[#8186D9]'
           >
            <Image src={care} className='rounded-2xl' alt='/'></Image>
