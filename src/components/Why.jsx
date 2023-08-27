@@ -25,7 +25,7 @@ const Why = () => {
 
   return (
 
-    <div className='flex justify-center'>
+    <div className='flex justify-center bg-slate-800' >
 
    
     <div

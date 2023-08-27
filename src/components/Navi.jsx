@@ -5,7 +5,7 @@ import neon from "../assets/neon.png"
 
 const Navi = () => {
   return (
-    <div  className='flex justify-between border-b-2 h-[80px] '>
+    <div  className='flex justify-between border-b-2 h-[80px] bg-slate-800 '>
       
       
       <div className='flex justify-center m-5'>

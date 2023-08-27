@@ -8,7 +8,10 @@ import Mood from '../assets/Mood.png'
 
 export const Front = () => {
   return (
-    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-8'>
+    <div className='flex justify-center'>
+
+ 
+    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-8 bg-gray-900'>
     
     <div className='flex lg:hidden  justify-center items-center'>
        
@@ -80,6 +83,7 @@ export const Front = () => {
 
     </div>
    
+    </div>
     </div>
     
   )

@@ -10,7 +10,7 @@ const Review = () => {
  
 
   return (
-    <div className='flex flex-col    mt-[200px]   '>
+    <div className='flex flex-col    mt-[200px]  bg-slate-950  '>
       
       <div className='flex justify-center flex-col items-center mb-20'>
         <h1 className='lg:text-[50px] text-[33px] font-bold'>What people think about us</h1>

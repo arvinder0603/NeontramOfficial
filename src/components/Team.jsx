@@ -1,52 +1,137 @@
-
-import Image from 'next/image';
 import React from 'react';
-import fam from "../assets/fam.png"
-import adarsha from "../assets/adarsha.png"
-import bijit from "../assets/bijit.png"
-import doctor from "../assets/doctor.png"
+import Image from 'next/image';
 
 const Team = () => {
+  const teamMembers = [
+    {
+      name: 'Adarsha Narayan Mallick',
+      role: 'CEO, Director',
+      bio: 'Ph. D. IIT Ropar',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
  
+    {
+      name: 'Bijit Basumatary',
+      role: 'CO-FOUNDER, CTO.',
+      bio: 'M. Tech-Ph. D. IIT Ropar',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
+      name: 'Dr. Ashish Sahani',
+      role: 'SCIENTIFIC ADVISOR',
+      bio: 'Assistant Prof ,IIT Ropar',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
+      name: 'Dr. Kamaldeep Arora',
+      role: 'CLINICAL-ADVISOR',
+      bio: 'Associate Prof, DMC & H Ludhiana',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
+      name: 'Arvinder Singh',
+      role: 'Web Intern',
+      bio: 'FULL STACK  INTERN',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
+      name: ' Prabhas Chandra',
+      role: 'Web Intern',
+      bio: 'FULL STACK  INTERN',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
+      name: 'Gurupad ray',
+      role: 'Software Development intern',
+      bio: '',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
+      name: 'Nathasha V P ',
+      role: 'Electronic Engineer',
+      bio: '',
+      imageUrl: 'https://dummyimage.com/200x200',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+  ];
 
   return (
-    <div className='flex justify-center  bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/bg.jpg?token=GHSAT0AAAAAACD7TIVTMS7KEHZ3WQIZ7TGIZHKILNQ")] bg-cover mt-[300px] mb-[300px] '>
-
- 
-    <div className=' flex flex-col lg:grid lg:grid-cols-3 mt-52 gap-28 lg:grid-rows-2 gap-y-28 item-center'>
-      <h1 className='lg:text-[70px] text-[50px] font-serif font-extrabold underline underline-offset-4 text-center' >OUR TEAM</h1>
-      <div data-aos="zoom-in-down" className='rounded-3xl bg-slate-100  w-[300px] flex justify-center flex-col text-center shadow-2xl shadow-[#353B3C]'>
-        <Image className='rounded-3xl' src={adarsha} alt='/'></Image>
-        <h1 className='font-semibold text-[22px] m-4'>
-          Adarsha <br/>CO-FOUNDER, CEO. 
-         <br/>
-Ph. D. IIT Ropar</h1>
+    <section className="text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
+            OUR TEAM
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.
+          </p>
+        </div>
+        <div className="flex flex-wrap -m-4">
+          {teamMembers.map((member, index) => (
+            <div key={index} className="p-4 md:w-1/2 lg:w-1/3">
+              <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center">
+                <img
+                  alt={member.name}
+                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  src={member.imageUrl}
+                />
+                <div className="flex-grow">
+                  <h2 className="title-font font-medium text-lg text-gray-900">
+                    {member.name}
+                  </h2>
+                  <h3 className="text-gray-500 mb-3">{member.role}</h3>
+                  <p className="mb-4">{member.bio}</p>
+                  <span className="inline-flex">
+                    {member.socialMedia.map((social, socialIndex) => (
+                      <a
+                        key={socialIndex}
+                        className="text-gray-500"
+                        href={social.link}
+                      >
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          className="w-5 h-5"
+                          viewBox="0 0 24 24"
+                        >
+                          {/* Insert social media SVG path here */}
+                        </svg>
+                      </a>
+                    ))}
+                  </span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-      <div data-aos="zoom-in-down" className='rounded-3xl bg-slate-100  w-[300px] flex justify-center flex-col text-center shadow-2xl shadow-[#353B3C]'>
-        <Image className='rounded-3xl' src={bijit} alt='/'></Image>
-        <h1 className='font-semibold text-[22px] m-4'>
-          Bijit <br/>CO-FOUNDER, CTO. 
-         <br/>
-Ph. D. IIT Ropar</h1>
-      </div>
-      <div data-aos="zoom-in-up" className='rounded-3xl bg-slate-100  w-[300px] flex justify-center flex-col text-center shadow-2xl shadow-[#353B3C]'>
-        <Image className='rounded-3xl' src={doctor} alt='/'></Image>
-        <h1 className='font-semibold text-[22px] m-4'>
-          Dr Ashish K Sahni<br/>ASSISTANT PREOF 
-         <br/>
-Ph. D. IIT Ropar</h1>
-      </div>
-      <div data-aos="zoom-in-up" className='rounded-3xl bg-slate-100  w-[300px] flex justify-center flex-col text-center shadow-2xl shadow-[#353B3C]'>
-        <Image className='rounded-3xl' src={fam} alt='/'></Image>
-        <h1 className='font-bold text-[30px] mt-4'>Intern 1</h1>
-      </div>
-      <div data-aos="zoom-in-up" className='rounded-3xl bg-slate-100  w-[300px] flex justify-center flex-col text-center shadow-2xl shadow-[#353B3C]'>
-        <Image className='rounded-3xl' src={fam} alt='/'></Image>
-        <h1 className='font-bold text-[30px] mt-4'>Intern 2</h1>
-      </div>
-      
-    </div>
-    </div>
+    </section>
   );
 };
 

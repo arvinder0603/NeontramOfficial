@@ -13,7 +13,7 @@ const Products = () => {
     })  
   }, []);
   return (
-    <div  className='flex justify-center flex-col mt-44 text-center  bg-[url("https://github.com/arvinder0603/NeontramOfficial/blob/main/src/assets/Untitled%20design%20(1).png?raw=true")]  bg-cover'>
+    <div  className='flex justify-center flex-col mt-44 text-center bg-slate-500  bg-[url("https://github.com/arvinder0603/NeontramOfficial/blob/main/src/assets/Untitled%20design%20(1).png?raw=true")]  bg-cover'>
       <h1 className='lg:text-[120px] text-[60px] font-serif font-semibold drop-shadow-2xl'>
         Our Products
       </h1>

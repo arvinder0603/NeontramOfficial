@@ -14,7 +14,7 @@ import Coursel from '@/UI/Coursel';
 
 const LandPage = () => {
   return (
-    <div className=" bg-cover scroll-smooth flex justify-center " >
+    <div className=" bg-cover scroll-smooth flex justify-center bg-red-900 " >
       <div className='flex justify-center flex-col'>
 
 
