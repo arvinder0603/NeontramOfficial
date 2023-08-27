@@ -7,7 +7,7 @@ const Team = () => {
       name: 'Adarsha Narayan Mallick',
       role: 'CEO, Director',
       bio: 'Ph. D. IIT Ropar',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/adarsha.png?token=GHSAT0AAAAAACD7TIVTFYWWZ4XOOFN57RZSZHLE6SQ',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -17,7 +17,7 @@ const Team = () => {
       name: 'Bijit Basumatary',
       role: 'CO-FOUNDER, CTO.',
       bio: 'M. Tech-Ph. D. IIT Ropar',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/bijit.png?token=GHSAT0AAAAAACD7TIVT7Y35OSAPGOANRMHOZHLE4UQ',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -26,7 +26,7 @@ const Team = () => {
       name: 'Dr. Ashish Sahani',
       role: 'SCIENTIFIC ADVISOR',
       bio: 'Assistant Prof ,IIT Ropar',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/doctor.png?token=GHSAT0AAAAAACD7TIVTVTJZVYZYK54HYKNYZHLE7CA',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -44,7 +44,7 @@ const Team = () => {
       name: 'Arvinder Singh',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://media.licdn.com/dms/image/C4E03AQHfSVY-FWBYCQ/profile-displayphoto-shrink_800_800/0/1634400083038?e=1698883200&v=beta&t=TGeJ9i9-oFKpl1jnNA8tqG4_ywclaKY5dFpwYzbJXH4',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -53,7 +53,7 @@ const Team = () => {
       name: ' Prabhas Chandra',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/3a37002224db9a1cb8f841b01eb6c3379b4d0072/src/assets/DSC_8008-01.jpg?token=AYORZEKWDOXEXTZ6O3VCBDTE5MTI2',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -62,7 +62,7 @@ const Team = () => {
       name: 'Gurupad ray',
       role: 'Software Development intern',
       bio: '',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/3a37002224db9a1cb8f841b01eb6c3379b4d0072/src/assets/PhotoFormal.jpg?token=AYORZENWEVJJBYGJ5W5T5OLE5MTI2',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -71,7 +71,7 @@ const Team = () => {
       name: 'Nathasha V P ',
       role: 'Electronic Engineer',
       bio: '',
-      imageUrl: 'https://dummyimage.com/200x200',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/3a37002224db9a1cb8f841b01eb6c3379b4d0072/src/assets/PSFix_20230703_142915.jpg?token=AYORZEMTE4KKYDE5TYBQMPLE5MTI2',
       socialMedia: [
         // Define social media links for this team member
       ],
