@@ -34,7 +34,7 @@ export const Front = () => {
        </h1>
       </div>
        
-      <div className='opacity-70 lg:text-[17px]  text-[14px] grid grid-cols-2 gap-8 grid-rows-2'>
+      <div className='opacity-70 lg:text-[17px] m-6  text-[14px] grid grid-cols-2 gap-8 grid-rows-2'>
         <div className='flex  text-center items-center'>
         <AiFillCheckSquare className='text-[#4166f9]' size={30}/>
         <h1>Safety First</h1>

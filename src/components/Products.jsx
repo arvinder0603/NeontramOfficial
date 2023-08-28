@@ -13,13 +13,13 @@ const Products = () => {
     })  
   }, []);
   return (
-    <div  className='flex justify-center flex-col  lg:h-[100vh] mt-44 text-center  bg-[url("https://images.pexels.com/photos/34763/baby-sleeping-baby-baby-girl.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")]  bg-cover bg-no-repeat'>
-      <h1 className='lg:text-[120px] text-[60px] font-serif font-semibold drop-shadow-2xl'>
+    <div  className='flex h-[270vh] justify-center flex-col  lg:h-[120vh]  text-center  bg-[url("https://img.freepik.com/free-vector/mother-lifting-baby-characters-card_603843-2233.jpg?w=1380&t=st=1693178053~exp=1693178653~hmac=9b57f024e7f1812a2d1382c20206f3f8876e1cae1b8151e9fae9c7f2f4957cc7")] lg:bg-no-repeat  bg-cover ' id="products">
+      <h1 className='lg:text-[120px] text-[60px]  font-semibold drop-shadow-2xl mt-32'>
         Our Products
       </h1>
         <div className='grid lg:grid-cols-2 gap-32 mt-[150px]'>
 
-          <div data-aos="flip-left" className='flex justify-center shadow-2xl rounded-3xl flex-col'>
+          <div data-aos="flip-left" className='flex justify-center shadow-2xl rounded-3xl flex-col '>
             <div className='flex justify-center'>
             <Image className='rounded-3xl' src={bed2} alt='/'></Image>
             </div>
@@ -34,7 +34,7 @@ const Products = () => {
 
           <div data-aos="flip-right" className='flex justify-center shadow-2xl rounded-3xl flex-col'>
             <div className='flex justify-center'>
-            <Image className='h-[360px] w-[600px] rounded-3xl' src={pr2} alt='/'></Image>
+            <Image className=' bg-slate-50 h-[360px] w-[600px] rounded-3xl' src={pr2} alt='/'></Image>
             </div>
            
             <div className='m-6'>

@@ -25,17 +25,17 @@ const Why = () => {
 
   return (
 
-    <div className='flex justify-center   ' >
+    <div className='bg-[url("https://img.freepik.com/free-vector/flat-stages-baby-boy-illustration_23-2148981563.jpg?w=1800&t=st=1693177938~exp=1693178538~hmac=3b7e3640d9069d595e2a2836f23ba2d539725f075166425d0ae936ddd094e650")] flex justify-center   ' >
 
    
     <div
       
-      className='bg-[url("https://raw.githubusercontent.com/arvinder0603/NeontramOfficial/main/src/assets/bgvec.png?token=GHSAT0AAAAAACD7TIVTV3HBRLW7PLHX7AFEZHJBRDQ")]  mt-[160px]    flex  flex-col gap-12 lg:mb-0 m bg-contain'
-      // Set initial background color here if needed
+      className='  mt-[160px]    flex  flex-col gap-12 lg:mb-0 m bg-contain'
+      // Set initia background color here if needed
     >
       <h4 className='flex justify-center font-extrabold font-sans lg:text-[70px] text-[33px] mb-14'>WHY NEONTRAM ?</h4>
 
-      <div className='grid  lg:grid-cols-3 lg:grid-rows-2 gap-32 ml-4'>
+      <div className='grid  lg:grid-cols-3 lg:grid-rows-2 gap-32 ml-4 mb-8'>
       <div data-aos="fade-up-right" className='flex justify-center content-center  bg-slate-100 lg:h-[300px] h-[200px] lg:w-[400px] w-[300px]    rounded-2xl shadow-2xl shadow-[#8186D9]'
           >
            <Image src={care} className='rounded-2xl' alt='/'></Image>

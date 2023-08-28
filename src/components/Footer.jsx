@@ -22,7 +22,7 @@ const Footer = () => {
         <h2 className='lg:text-[30px] font-extrabold mb-4 text-[#f83ce5]'>Quick Links</h2>
         <ul className='space-y-2'>
           <li>
-            <Link href='/'>
+            <Link href='https://www.linkedin.com/company/neontram/'>
               <h1 className='hover:text-white'>
                 <AiFillLinkedin size={35}/>
               </h1>
@@ -34,12 +34,12 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href='/services'>
+            <Link href='https://www.facebook.com/Neontram?mibextid=ZbWKwL'>
               <h1 className='hover:text-white'><AiFillFacebook size={35}/></h1>
             </Link>
           </li>
           <li>
-            <Link href='/contact'>
+            <Link href='https://instagram.com/neontram_pvt_ltd?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'>
               <h1 className='hover:text-white'>
                 <AiFillInstagram size={35}/>
               </h1>
@@ -50,11 +50,21 @@ const Footer = () => {
       <div className='lg:w-1/3'>
         <h2 className='lg:text-3xl text-[#f83ce5]  font-extrabold mb-4'>Contact Us</h2>
         <p className='text-sm'>
-          123 Main Street
-          <br />
-          City, Country
-          <br />
-          Phone: (123) 456-7890
+        #308, East wing, M. Visvesvaraya Block
+       <br/>
+TBIF IIT Ropar
+
+Rupnagar, Punjab, 140001
+<br/>
+
+Email: adarshanmallick@gmail.com
+        </p>
+        <p>
+        Regd. Office:
+         <br/>
+
+C/o 66, AT Balimundali, PO Badapokhari, VIA Tudigadia, Balasore,
+Orissa, India, 756047
         </p>
       </div>
     </div>

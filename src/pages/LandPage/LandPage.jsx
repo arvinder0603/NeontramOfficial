@@ -1,3 +1,4 @@
+
 import Navi from '@/components/Navi';
 import React from 'react';
 import Image from 'next/image';
@@ -10,7 +11,7 @@ import Products from '@/components/Products';
 import Review from '@/components/Review';
 import Team from '@/components/Team';
 import Footer from '@/components/Footer';
-import Coursel from '@/UI/Coursel';
+
 
 const LandPage = () => {
   return (
@@ -27,10 +28,9 @@ const LandPage = () => {
       <Why/>
 
       <Products/>
-
-    
-    
-
+         
+          <Review/>
+      
       <Team/>
 
       <Footer/>

@@ -1,4 +1,8 @@
+
 import React from 'react';
+
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import Image from 'next/image';
 import adarsha from '../assets/adarsha.png';
 import bijit from '../assets/bijit.png';
@@ -6,6 +10,7 @@ import doctor from '../assets/doctor.png';
 import fam from '../assets/fam.png';
 
 const Team = () => {
+  
   const teamMembers = [
     {
       name: 'Adarsha Narayan Mallick',
@@ -80,16 +85,25 @@ const Team = () => {
         // Define social media links for this team member
       ],
     },
+    {
+      name: 'Ms Barenya Sarangi',
+      role: 'Marketing Intern',
+      bio: '',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/marketing.jpg',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
   ];
 
   return (
-    <section className="text-gray-600 body-font ">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-[60px] font-medium title-font mb-4 text-gray-900 tracking-widest">
+    <section id="team" className=" body-font  bg-gradient-to-r from-gray-300 via-gray-400 to-amber-400 flex justify-center">
+      <div className="container px-5 py-24 mx-auto flex justify-center flex-col">
+        <div  className="flex flex-col text-center w-full mb-20">
+          <h1 className="text-[70px] font-medium title-font mb-4 text-gray-900 tracking-widest">
             OUR TEAM
           </h1>
-          <p className="lg:w-2/3 text-[37px] mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 text-[47px] mx-auto leading-relaxed text-base">
             Meet our Proffesional
           </p>
         </div>
@@ -97,14 +111,14 @@ const Team = () => {
         <div className="flex flex-wrap ">
           {teamMembers.map((member, index) => (
             <div key={index} className="p-4 md:w-1/2 lg:w-1/3">
-              <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center">
+              <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center shadow-2xl rounded-3xl">
                 <img
                   alt={member.name}
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                   src={member.imageUrl}
                 />
                 <div className="flex-grow">
-                  <h2 className="title-font font-medium text-lg text-gray-900">
+                  <h2 className="title-font font-medium text-lg ">
                     {member.name}
                   </h2>
                   <h3 className="text-gray-500 mb-3">{member.role}</h3>
