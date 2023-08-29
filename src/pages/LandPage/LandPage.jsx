@@ -11,6 +11,8 @@ import Products from '@/components/Products';
 import Review from '@/components/Review';
 import Team from '@/components/Team';
 import Footer from '@/components/Footer';
+import r1 from "../../assets/r1.png"
+import r2 from "../../assets/r2.png"
 
 
 const LandPage = () => {
@@ -25,9 +27,13 @@ const LandPage = () => {
 
       <Front/>
 
-      <Why/>
+    
+
+   
 
       <Products/>
+
+   
          
           <Review/>
       
