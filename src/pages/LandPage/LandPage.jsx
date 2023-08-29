@@ -15,7 +15,7 @@ import Footer from '@/components/Footer';
 
 const LandPage = () => {
   return (
-    <div className=" bg-cover scroll-smooth flex justify-center" >
+    <div className=" bg-cover scroll-smooth flex justify-center bg-[#F8D8B4]" >
       <div className='flex justify-center flex-col'>
 
 
