@@ -8,10 +8,10 @@ import child2 from "../assets/child2.png"
 import kid from "../assets/kid.png"
 export const Front = () => {
   return (
-    <div className='flex justify-center lg:h-[130vh] h-[140vh]  bg-[#F9EBDC]'>
+    <div className='flex lg:h-[1800px] justify-center   bg-[#F9EBDC]'>
 
  
-    <div className='grid h-[100vh]  lg:grid-cols-2 lg:mt-0  mt-4 '>
+    <div className='grid  lg:grid-cols-2 lg:mt-0  mt-4 '>
     
     <div className='flex lg:hidden  justify-center items-center'>
        

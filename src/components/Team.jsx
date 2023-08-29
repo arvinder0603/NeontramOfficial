@@ -97,7 +97,7 @@ const Team = () => {
   ];
 
   return (
-    <section id="team" className=" body-font  bg-gradient-to-r from-gray-300 via-gray-400 to-amber-400 flex justify-center">
+    <section id="team"  className=" body-font bg-gradient-to-br from-white to-blue-100  justify-center">
       <div className="container px-5 py-24 mx-auto flex justify-center flex-col">
         <div  className="flex flex-col text-center w-full mb-20">
           <h1 className="text-[70px] font-medium title-font mb-4 text-gray-900 tracking-widest">
@@ -108,7 +108,7 @@ const Team = () => {
           </p>
         </div>
         <div className='flex justify-center'>
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap justify-center ">
           {teamMembers.map((member, index) => (
             <div key={index} className="p-4 md:w-1/2 lg:w-1/3">
               <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center shadow-2xl rounded-3xl">

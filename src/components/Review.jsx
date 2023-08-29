@@ -11,9 +11,9 @@ const Review = () => {
  
 
   return (
- <div className='lg:h-[100vh] flex justify-center flex-col  bg-gradient-to-t from-[#cfd9df] to-[#e2ebf0]'>
+ <div className=' flex justify-center lg:h-[900px] h-[1800px] flex-col bg-[#F8D8B4] '>
 
-  <h1 className='text-[60px] flex justify-center'>What People love  about our products</h1>
+  <h1 className='lg:text-[60px] text-[40px] mt-[100px] flex justify-center'>What People love  about our products</h1>
        <Revcard/>
        
  </div>

@@ -13,7 +13,7 @@ const Products = () => {
     })  
   }, []);
   return (
-    <div  className='flex h-[270vh] justify-center flex-col  lg:h-[120vh]  text-center  bg-[url("https://img.freepik.com/free-vector/mother-lifting-baby-characters-card_603843-2233.jpg?w=1380&t=st=1693178053~exp=1693178653~hmac=9b57f024e7f1812a2d1382c20206f3f8876e1cae1b8151e9fae9c7f2f4957cc7")] lg:bg-no-repeat  bg-cover ' id="products">
+    <div  className='flex lg:h-[1500px] lg: justify-center flex-col   text-center  bg-[url("https://img.freepik.com/free-vector/mother-lifting-baby-characters-card_603843-2233.jpg?w=1380&t=st=1693178053~exp=1693178653~hmac=9b57f024e7f1812a2d1382c20206f3f8876e1cae1b8151e9fae9c7f2f4957cc7")] lg:bg-no-repeat  bg-cover ' id="products">
       <h1 className='lg:text-[120px] text-[60px]  font-semibold drop-shadow-2xl mt-32'>
         Our Products
       </h1>
