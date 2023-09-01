@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Image from 'next/image';
 import doct from "../assets/doct.png"
@@ -6,6 +7,7 @@ import Blood from '../assets/Blood.png'
 import Sleep from '../assets/Sleep.png'
 import child2 from "../assets/child2.png"
 import kid from "../assets/kid.png"
+import ReactWhatsapp from 'react-whatsapp';
 export const Front = () => {
   return (
     <div className='flex lg:h-[1300px]  justify-center   bg-[#F9EBDC]'>
@@ -61,7 +63,7 @@ export const Front = () => {
         </div>
 
         <div className='text-[20px] mt-12 flex'>
-        <button className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl'>Contact</button>
+        <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp>
         <div className='flex justify-center m-3'>
         <h1 className='text-[16px] text-gray-500'>Book today</h1>
         </div>
