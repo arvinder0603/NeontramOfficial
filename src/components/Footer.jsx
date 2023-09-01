@@ -89,7 +89,7 @@ const Footer = () => {
           </div>
           <div>
           <h2 className='lg:text-xl text-[#f83ce5]  font-extrabold mb-4'>Contact Us</h2>
-          <p className='text-[17px]'>
+          <p className='lg:text-[17px] text-[12px]'>
             #308, East wing, M. Visvesvaraya Block
             <br />
             TBIF IIT Ropar
@@ -100,7 +100,7 @@ const Footer = () => {
 
             Email: adarshanmallick@gmail.com
           </p>
-          <p>
+          <p className='lg:text-[17px] text-[12px]'>
             Regd. Office:
             <br />
 
