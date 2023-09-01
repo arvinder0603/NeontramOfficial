@@ -14,13 +14,23 @@ const Footer = () => {
           <p className='text-lg'>
             We care for your child.
           </p>
+
+
           <div className='flex justify-start items-center'>
             <Image className='h-[260px] w-[380px]' src={image} alt='/'></Image>
           </div>
         </div>
-        <div className='mb-6 lg:w-1/3 flex  flex-col item-center' >
-          <h2 className='lg:text-[30px] font-extrabold mb-4 text-[#f83ce5]'>Quick Links</h2>
-          <ul className='space-y-2'>
+
+
+   
+
+           <div className='flex'>
+
+          
+
+        {/* <div className='mb-6 lg:w-1/3 flex  flex-col' >
+          <h2 className='lg:text-[30px] font-extrabold mb-4 text-[#f83ce5]'>Quick Links</h2> */}
+          {/* <ul className='flex  flex-col justify-end space-y-2'>
             <li>
               <Link href='https://www.linkedin.com/company/neontram/'>
                 <h1 className='hover:text-white'>
@@ -45,11 +55,41 @@ const Footer = () => {
                 </h1>
               </Link>
             </li>
+          </ul> */}
+        {/* </div> */}
+        <div className='lg:w-1/3 flex flex-row gap-6' >
+
+          <div>
+          <ul className='flex  flex-col justify-end space-y-2 mt-20'>
+            <li>
+              <Link href='https://www.linkedin.com/company/neontram/'>
+                <h1 className='hover:text-white'>
+                  <AiFillLinkedin size={45} />
+                </h1>
+              </Link>
+            </li>
+            <li>
+              <Link href='/about'>
+                <h1 className='hover:text-white'><AiFillTwitterSquare size={45} /></h1>
+              </Link>
+            </li>
+            <li>
+              <Link href='https://www.facebook.com/Neontram?mibextid=ZbWKwL'>
+                <h1 className='hover:text-white'><AiFillFacebook size={45} /></h1>
+              </Link>
+            </li>
+            <li>
+              <Link href='https://instagram.com/neontram_pvt_ltd?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'>
+                <h1 className='hover:text-white'>
+                  <AiFillInstagram size={45} />
+                </h1>
+              </Link>
+            </li>
           </ul>
-        </div>
-        <div className='lg:w-1/3'>
+          </div>
+          <div>
           <h2 className='lg:text-xl text-[#f83ce5]  font-extrabold mb-4'>Contact Us</h2>
-          <p className='text-[12px]'>
+          <p className='text-[17px]'>
             #308, East wing, M. Visvesvaraya Block
             <br />
             TBIF IIT Ropar
@@ -67,6 +107,9 @@ const Footer = () => {
             C/o 66, AT Balimundali, PO Badapokhari, VIA Tudigadia, Balasore,
             Orissa, India, 756047
           </p>
+          </div>
+       
+        </div>
         </div>
       </div>
     </footer>
