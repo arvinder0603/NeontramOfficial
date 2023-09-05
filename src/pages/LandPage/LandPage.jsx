@@ -56,7 +56,7 @@ const LandPage = () => {
 
         <Contact />
 
-        <Footer />
+        {/* <Footer /> */}
 
 
 
