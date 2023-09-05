@@ -60,17 +60,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          {/* <div className="p-2 w-full">
-            <div className="relative">
-              <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
-              <input
-                id="message"
-                name="message"
-                onChange={(e)=>setText(e.target.value)}
-                className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></input>
-            </div>
-          </div> */}
+        
        
           <div className="p-2 w-full">
             <button  onClick={submitHandler} className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact</button>
@@ -83,7 +73,7 @@ const Contact = () => {
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                   strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"

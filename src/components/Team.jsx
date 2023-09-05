@@ -97,7 +97,7 @@ const Team = () => {
   ];
 
   return (
-    <section id="team"  className=" body-font bg-[#FFECC2] justify-center">
+    <section id="team"  className=" body-font  justify-center">
       <div className="container px-5 py-24 mx-auto flex justify-center flex-col">
         <div  className="flex flex-col text-center w-full mb-20">
           <h1 className="text-[70px] font-medium title-font mb-4 text-gray-900 tracking-widest">
