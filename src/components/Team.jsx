@@ -16,7 +16,7 @@ const Team = () => {
       name: 'Adarsha Narayan Mallick',
       role: 'CEO, Director',
       bio: 'Ph. D. IIT Ropar',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/adarsha.png',
+      imageUrl: 'https://media.canva.com/1/image-resize/1/235_297_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS8tODBKTS9NQUZqREctODBKTS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAACYw9GfwSLDuHWGBl4Ddx7l4C8eYwyKgu_dLx6YrE41K&exp=1693942769&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAPUl7xLBMNVAmRvjDfdVe1atQ9WjNDSxhTPzWkS1x9PX',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -50,6 +50,15 @@ const Team = () => {
       ],
     },
     {
+      name: 'Nathasha V P ',
+      role: 'Electronic Engineer',
+      bio: '',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PSFix_20230703_142915.jpg',
+      socialMedia: [
+        // Define social media links for this team member
+      ],
+    },
+    {
       name: 'Arvinder Singh',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
@@ -76,15 +85,7 @@ const Team = () => {
         // Define social media links for this team member
       ],
     },
-    {
-      name: 'Nathasha V P ',
-      role: 'Electronic Engineer',
-      bio: '',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PSFix_20230703_142915.jpg',
-      socialMedia: [
-        // Define social media links for this team member
-      ],
-    },
+ 
     {
       name: 'Ms Barenya Sarangi',
       role: 'Marketing Intern',
@@ -100,7 +101,7 @@ const Team = () => {
     <section id="team"  className=" body-font  justify-center">
       <div className="container px-5 py-24 mx-auto flex justify-center flex-col">
         <div  className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-[70px] font-medium title-font mb-4 text-gray-900 tracking-widest">
+          <h1 className="lg:text-[70px] text-[35px] font-medium title-font mb-4 text-gray-900 tracking-widest">
             OUR TEAM
           </h1>
           <p className="lg:w-2/3 text-[47px] mx-auto leading-relaxed text-base">
@@ -114,7 +115,7 @@ const Team = () => {
               <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center shadow-2xl rounded-3xl">
                 <img
                   alt={member.name}
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="flex-shrink-0 mt-3 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                   src={member.imageUrl}
                 />
                 <div className="flex-grow">

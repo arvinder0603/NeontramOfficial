@@ -21,7 +21,7 @@ import Test from '@/components/Test';
 
 const LandPage = () => {
   return (
-    <div className=" bg-cover scroll-smooth flex justify-center bg-[#F8D8B4]" >
+    <div className=" bg-cover scroll-smooth flex justify-center bg-[#F9EBDC] " >
       <div className=''>
 
 
@@ -37,10 +37,10 @@ const LandPage = () => {
 
         <Products />
 
-        <div className='flex justify-center flex-col bg-orange-400 rounded-3xl'>
+        <div className='flex justify-center flex-col bg-[#DFCAB9] rounded-3xl'>
 
 
-          <h1 className='lg:text-[60px] text-[40px] flex justify-center'>
+          <h1 className='lg:text-[60px] text-[40px]  flex justify-center'>
             Recognised By
           </h1>
           <div className='flex justify-center lg:flex-row flex-col m-6'>
