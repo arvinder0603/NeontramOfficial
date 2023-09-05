@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +7,7 @@
 
 *{
   
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Playfair Display', serif;
   
 }
 h4{

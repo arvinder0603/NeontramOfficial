@@ -13,12 +13,15 @@ import Team from '@/components/Team';
 import Footer from '@/components/Footer';
 import r1 from "../../assets/r1.png"
 import r2 from "../../assets/r2.png"
+import Contact from '@/components/Contact';
+
+
 
 
 const LandPage = () => {
   return (
     <div className=" bg-cover scroll-smooth flex justify-center bg-[#F8D8B4]" >
-      <div className='flex justify-center flex-col'>
+      <div className=''>
 
 
       <Navi/>
@@ -33,13 +36,16 @@ const LandPage = () => {
 
       <Products/>
 
-   
-         
           <Review/>
       
       <Team/>
 
+      <Contact/>
+
       <Footer/>
+
+   
+   
       </div>
      
     </div>
