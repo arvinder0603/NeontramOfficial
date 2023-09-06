@@ -7,6 +7,8 @@ import bedchild from "../assets/bedchild.png"
 import revdoc from "../assets/revdoc.jpg"
 import pr2 from "../assets/pr2.png"
 import bed3 from "../assets/bed3.jpg"
+import birac from '../assets/birac.png'
+import fir from '../assets/fir.png'
 const Test = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -46,6 +48,15 @@ const Test = () => {
         </div>
       </div>
       <h1 className='mt-8 text-[30px]'>Implementation of our product at NICUs of dmch Ludhiana</h1>
+    </div>
+
+    <div className='flex justify-center m-6 '>
+      <h1 className='text-[30px] flex items-center'>Supported  by</h1>
+      <div className='flex  lg:flex-row flex-col'>
+      <Image src={birac}  alt='/'></Image>
+      <Image src={fir}  alt='/'></Image>
+      </div>
+     
     </div>
   </section>
   )
