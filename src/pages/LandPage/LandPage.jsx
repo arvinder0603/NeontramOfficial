@@ -18,7 +18,6 @@ import Test from '@/components/Test';
 
 
 
-
 const LandPage = () => {
   return (
     <div className=" bg-cover scroll-smooth flex justify-center bg-[#F9EBDC] " >
@@ -56,7 +55,8 @@ const LandPage = () => {
 
         <Contact />
 
-        {/* <Footer /> */}
+
+        <Footer />
 
 
 

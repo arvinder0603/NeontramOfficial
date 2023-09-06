@@ -16,7 +16,7 @@ const Team = () => {
       name: 'Adarsha Narayan Mallick',
       role: 'CEO, Director',
       bio: 'Ph. D. IIT Ropar',
-      imageUrl: 'https://media.canva.com/1/image-resize/1/235_297_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS8tODBKTS9NQUZqREctODBKTS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAACYw9GfwSLDuHWGBl4Ddx7l4C8eYwyKgu_dLx6YrE41K&exp=1693942769&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAPUl7xLBMNVAmRvjDfdVe1atQ9WjNDSxhTPzWkS1x9PX',
+      imageUrl: 'https://media.canva.com/1/image-resize/1/549_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9zNDNJNC9NQUZ0cFhzNDNJNC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAANgtBlXh8yICyg5GuYqEGPxcP0ALgMQ0SpXAWAY00_8Y&exp=1693992515&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAK-4tjc13W_afTi4At7HPjonXUQ56PC5qlzbJb8AcwZV',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -53,7 +53,7 @@ const Team = () => {
       name: 'Nathasha V P ',
       role: 'Electronic Engineer',
       bio: '',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PSFix_20230703_142915.jpg',
+      imageUrl: 'https://media.canva.com/1/image-resize/1/550_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9Ra1hxNC9NQUZua2RRa1hxNC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAHsnSGu71KGteIGZDf3iwn0tCWmDHuspfhlV84gy9dcc&exp=1693994544&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAB3ZIB8crIdmj5RAbhWeqBBX9nN_wvVUsqcN9PC4Alqg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -71,7 +71,7 @@ const Team = () => {
       name: ' Prabhas Chandra',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/DSC_8008-01.jpg',
+      imageUrl: 'https://media.canva.com/1/image-resize/1/412_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9FTW5mOC9NQUZua2FFTW5mOC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAPCmniH5Fr6B8VJh0KP084WOAKj2FEU1fOtcy0fIPfDA&exp=1693994024&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAK3-b7uMsscSIFxR_NbfO5KAnBJUk_HWbtN3_CY5BaBJ',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -80,7 +80,7 @@ const Team = () => {
       name: 'Gurupad ray',
       role: 'Software Development intern',
       bio: '',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PhotoFormal.jpg',
+      imageUrl: 'https://media.canva.com/1/image-resize/1/390_510_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS83UkZDSS9NQUZuamw3UkZDSS8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAACLqSmSTN3kVtQeNFwiVgDwVX8BzCDFIr5RndfPVVmjA&exp=1693993396&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAACAB1B2HYvrRd4C7UucAzytbz0oKfpDLB239zVvPxsNL',
       socialMedia: [
         // Define social media links for this team member
       ],
