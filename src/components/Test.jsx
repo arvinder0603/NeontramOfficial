@@ -8,7 +8,7 @@ import revdoc from "../assets/revdoc.jpg"
 import pr2 from "../assets/pr2.png"
 import bed3 from "../assets/bed3.jpg"
 import birac from '../assets/birac.png'
-import fir from '../assets/fir.png'
+import firr from '../assets/firr.png'
 const Test = () => {
   return (
     <section className="text-gray-600 body-font">
@@ -17,7 +17,7 @@ const Test = () => {
         <h1 className="lg:text-[60px] text-[38px] font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
          Neontram 
         </h1>
-        <p className="lg:pl-6 text-[20px] lg:w-2/3 mx-auto leading-relaxed text-base">
+        <p className="lg:pl-6 lg:text-[27px] text-[23px] lg:w-2/3 mx-auto leading-relaxed text-base">
         Neontram Pvt. Ltd. is a BIRAC-funded company for developing technology-driven solutions for neonatal and pediatric healthcare.
         The primary objective of the company is to develop a low-cost anti-sore bed for neonates in addition to the development and commercialization of other medical devices, especially in the fields of pediatrics and neonatology spaces. 
       We will also develop and provide software and electronics solutions for healthcare applications and provide consulting and training services in the above areas. We will also develop products for the preparation of beverages for neonatology, pediatrics, and adult-use cases.
@@ -47,14 +47,14 @@ const Test = () => {
           </div>
         </div>
       </div>
-      <h1 className='mt-8 text-[30px]'>Implementation of our product at NICUs of dmch Ludhiana</h1>
+      <h1 className='mt-8 font-extrabold flex justify-center text-[42px]'>Implementation of our product at Neonatal intensive care unit of Dayanand Medical College & Hospital ,  Ludhiana</h1>
     </div>
 
     <div className='flex justify-center m-6 '>
-      <h1 className='text-[30px] flex items-center'>Supported  by</h1>
+      <h1 className='lg:text-[60px] text-[40px] flex items-center'>Supported  by</h1>
       <div className='flex  lg:flex-row flex-col'>
       <Image src={birac}  alt='/'></Image>
-      <Image src={fir}  alt='/'></Image>
+      <Image className='lg:h-[160px] lg:w-[200px]' src={firr}  alt='/'></Image>
       </div>
      
     </div>

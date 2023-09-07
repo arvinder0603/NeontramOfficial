@@ -44,7 +44,7 @@ const Team = () => {
       name: 'Dr. Kamaldeep Arora',
       role: 'CLINICAL-ADVISOR',
       bio: 'Associate Prof, DMC & H Ludhiana',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/advisor.png',
+      imageUrl: 'https://media.canva.com/1/image-resize/1/517_550_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9PckhIcy9NQUZ0dl9PckhIcy8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAABbyzZp88rffTV3Z3Kuwb1Pk0tKDeQTuTlTlatXVy7Lm&exp=1694089041&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAGet049KMvQXd5ZukTQR2D0G7BKvePzDwsdQngbCgaZK',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -68,7 +68,7 @@ const Team = () => {
       ],
     },
     {
-      name: ' Prabhas Chandra',
+      name: ' Prabhas Chandra Sankhua',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
       imageUrl: 'https://media.canva.com/1/image-resize/1/412_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9FTW5mOC9NQUZua2FFTW5mOC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAPCmniH5Fr6B8VJh0KP084WOAKj2FEU1fOtcy0fIPfDA&exp=1693994024&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAK3-b7uMsscSIFxR_NbfO5KAnBJUk_HWbtN3_CY5BaBJ',
@@ -104,8 +104,8 @@ const Team = () => {
           <h1 className="lg:text-[70px] text-[35px] font-medium title-font mb-4 text-gray-900 tracking-widest">
             OUR TEAM
           </h1>
-          <p className="lg:w-2/3 text-[47px] mx-auto leading-relaxed text-base">
-            Meet our Proffesional
+          <p className="lg:w-2/3 lg:ext-[47px]  text-[28px] mx-auto leading-relaxed text-base">
+          Meet the Dedicated Minds Behind
           </p>
         </div>
         <div className='flex justify-center'>
@@ -115,7 +115,7 @@ const Team = () => {
               <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center shadow-2xl rounded-3xl">
                 <img
                   alt={member.name}
-                  className="flex-shrink-0 mt-3 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="flex-shrink-0  m-6 rounded-lg w-48 h-50 object-cover object-center sm:mb-0 mb-4"
                   src={member.imageUrl}
                 />
                 <div className="flex-grow">

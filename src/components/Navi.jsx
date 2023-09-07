@@ -17,7 +17,7 @@ const Navi = () => {
       </div>
 
       <div className='lg:flex hidden justify-center items-center'>
-       <ul className='text-[13px] text-gray-600 font-semibold flex gap-12 tracking-wide'>
+       <ul className='text-[13px] text-gray-600 font-semibold cursor-pointer flex gap-12 tracking-wide'>
         
        <li className="focus:border-b-4 border-[#4166f9] ">H O M E</li>
 

@@ -23,7 +23,7 @@ const Footer = () => {
               Rupnagar, Punjab, 140001
               <br />
 
-              Email: adarshanmallick@gmail.com
+              Email: contact@neontram.com
             </p>
             </nav>
           </div>

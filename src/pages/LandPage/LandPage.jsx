@@ -42,7 +42,7 @@ const LandPage = () => {
           <h1 className='lg:text-[60px] text-[40px]  flex justify-center'>
             Recognised By
           </h1>
-          <div className='flex justify-center lg:flex-row flex-col m-6'>
+          <div className='flex justify-center lg:flex-row flex-col gap-12 m-6'>
             <Image src={r1} alt='.' />
             <Image src={r2} alt='.' />
           </div>

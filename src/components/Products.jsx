@@ -13,10 +13,13 @@ const Products = () => {
     })  
   }, []);
   return (
-    <div  className='flex lg:h-[1500px]  bg-[url("https://img.freepik.com/free-vector/mother-lifting-baby-characters-card_603843-2233.jpg?w=1380&t=st=1693927215~exp=1693927815~hmac=9407c301c61d31c615de3ca8ea1fb8c40b1526bd5a612990106055b30794d296")] lg: justify-center flex-col   text-center  mb-[100px] mt-[150px] lg:bg-no-repeat  bg-cover ' id="products">
-      <h1 className='lg:text-[120px] text-[60px]  font-semibold drop-shadow-2xl mt-32'>
+    <div  className='flex lg:h-[1500px]  bg-[url("https://media.canva.com/1/image-resize/1/550_440_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9fdHRwYy9NQUZ0dnlfdHRwYy8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAAuTpTvWbv2HL3qLKRNF7bVaV3s-Qn47egwLv6BUYEs3&exp=1694086866&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAH9r4GPv433dGEGK5yAhkUGFTTcaDTNGTDycztMyUJPe")] lg: justify-center flex-col   text-center  mb-[100px] mt-[350px] lg:bg-no-repeat  bg-cover ' id="products">
+      <div className='flex justify-center'>
+      <h1 className='lg:text-[120px] text-[60px]  font-semibold drop-shadow-2xl mt-32  rounded-3xl '>
         Our Products
       </h1>
+      </div>
+     
         <div className='grid lg:grid-cols-2 gap-32 mt-[150px]'>
 
           <div data-aos="flip-left" className='flex justify-center shadow-2xl rounded-3xl flex-col '>
