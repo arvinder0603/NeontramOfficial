@@ -47,14 +47,17 @@ const Test = () => {
           </div>
         </div>
       </div>
-      <h1 className='mt-8 font-extrabold flex justify-center text-[42px]'>Implementation of our product at Neonatal intensive care unit of Dayanand Medical College & Hospital ,  Ludhiana</h1>
+      <h1 className='mt-8 font-extrabold flex justify-center lg:text-[42px] text-[23px]'>Implementation of our product at Neonatal intensive care unit of Dayanand Medical College & Hospital ,  Ludhiana</h1>
     </div>
 
     <div className='flex justify-center m-6 '>
-      <h1 className='lg:text-[60px] text-[40px] flex items-center'>Supported  by</h1>
-      <div className='flex  lg:flex-row flex-col'>
+      <h1 className='lg:text-[60px] text-[33px] flex items-center'>Supported  by</h1>
+      <div className='flex  justify-center lg:flex-row flex-col'>
       <Image src={birac}  alt='/'></Image>
-      <Image className='lg:h-[160px] lg:w-[200px]' src={firr}  alt='/'></Image>
+      <div className='flex justify-center item-center'>
+      <Image className='lg:h-[160px] h-[100px] w-[120px] lg:w-[200px]' src={firr}  alt='/'></Image>
+      </div>
+      
       </div>
      
     </div>

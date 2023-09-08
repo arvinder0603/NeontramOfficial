@@ -16,7 +16,7 @@ const Team = () => {
       name: 'Adarsha Narayan Mallick',
       role: 'CEO, Director',
       bio: 'Ph. D. IIT Ropar',
-      imageUrl: 'https://media.canva.com/1/image-resize/1/549_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9zNDNJNC9NQUZ0cFhzNDNJNC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAANgtBlXh8yICyg5GuYqEGPxcP0ALgMQ0SpXAWAY00_8Y&exp=1693992515&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAK-4tjc13W_afTi4At7HPjonXUQ56PC5qlzbJb8AcwZV',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/bc52b82b-1f86-48bc-90ee-04e4c3b79058%20(1).jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -26,7 +26,7 @@ const Team = () => {
       name: 'Bijit Basumatary',
       role: 'CO-FOUNDER, CTO.',
       bio: 'M. Tech-Ph. D. IIT Ropar',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/bijit.png',
+      imageUrl: 'https://media.licdn.com/dms/image/D4D03AQGhtBlunpoMKQ/profile-displayphoto-shrink_400_400/0/1673607073098?e=1699488000&v=beta&t=xIIJOt38bxdJSpbW3tumvwjM8c3YvnPrFh88Q7l0DXE',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -35,7 +35,7 @@ const Team = () => {
       name: 'Dr. Ashish Sahani',
       role: 'SCIENTIFIC ADVISOR',
       bio: 'Assistant Prof ,IIT Ropar',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/doctor.png',
+      imageUrl: 'https://media.licdn.com/dms/image/D4D03AQHYP4Fu7zFzTw/profile-displayphoto-shrink_800_800/0/1682529797316?e=1699488000&v=beta&t=HJGV20f2eMOBx6rYoRbjnaJPbm0cOJWBeZe_09HNe98',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -44,7 +44,7 @@ const Team = () => {
       name: 'Dr. Kamaldeep Arora',
       role: 'CLINICAL-ADVISOR',
       bio: 'Associate Prof, DMC & H Ludhiana',
-      imageUrl: 'https://media.canva.com/1/image-resize/1/517_550_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9PckhIcy9NQUZ0dl9PckhIcy8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAABbyzZp88rffTV3Z3Kuwb1Pk0tKDeQTuTlTlatXVy7Lm&exp=1694089041&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAGet049KMvQXd5ZukTQR2D0G7BKvePzDwsdQngbCgaZK',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/kamal.png',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -53,7 +53,7 @@ const Team = () => {
       name: 'Nathasha V P ',
       role: 'Electronic Engineer',
       bio: '',
-      imageUrl: 'https://media.canva.com/1/image-resize/1/550_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9Ra1hxNC9NQUZua2RRa1hxNC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAHsnSGu71KGteIGZDf3iwn0tCWmDHuspfhlV84gy9dcc&exp=1693994544&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAB3ZIB8crIdmj5RAbhWeqBBX9nN_wvVUsqcN9PC4Alqg',
+      imageUrl: 'https://media.licdn.com/dms/image/C4D03AQEwU3ivIIUL1w/profile-displayphoto-shrink_400_400/0/1659723947080?e=1699488000&v=beta&t=36kkCNlm5xSRKYGaPTDIj4km9j0spvlC4JgKB2K1EL8',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -71,7 +71,7 @@ const Team = () => {
       name: ' Prabhas Chandra Sankhua',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
-      imageUrl: 'https://media.canva.com/1/image-resize/1/412_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9FTW5mOC9NQUZua2FFTW5mOC8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAPCmniH5Fr6B8VJh0KP084WOAKj2FEU1fOtcy0fIPfDA&exp=1693994024&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAK3-b7uMsscSIFxR_NbfO5KAnBJUk_HWbtN3_CY5BaBJ',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/DSC_8008-01.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -79,8 +79,8 @@ const Team = () => {
     {
       name: 'Gurupad ray',
       role: 'Software Development intern',
-      bio: '',
-      imageUrl: 'https://media.canva.com/1/image-resize/1/390_510_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS83UkZDSS9NQUZuamw3UkZDSS8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAACLqSmSTN3kVtQeNFwiVgDwVX8BzCDFIr5RndfPVVmjA&exp=1693993396&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAACAB1B2HYvrRd4C7UucAzytbz0oKfpDLB239zVvPxsNL',
+      bio: 'WEB DEVELOPMENT INTERN',
+      imageUrl: 'https://media.licdn.com/dms/image/D4D03AQFm9nZvicodpw/profile-displayphoto-shrink_400_400/0/1684917528193?e=1699488000&v=beta&t=Cn3JZu9oJH3Ggpzvflycq3wgC2xlmjVyuv7DEBEy3GY',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -90,7 +90,7 @@ const Team = () => {
       name: 'Ms Barenya Sarangi',
       role: 'Marketing Intern',
       bio: '',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/marketing.jpg',
+      imageUrl: 'https://media.licdn.com/dms/image/D4D03AQHxdqhcAptG_A/profile-displayphoto-shrink_400_400/0/1675079552963?e=1699488000&v=beta&t=Cwbv4i0Ax8NRFL6l4ROcA5YcSn_Xj-McjBKad0GIHTQ',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -104,7 +104,7 @@ const Team = () => {
           <h1 className="lg:text-[70px] text-[35px] font-medium title-font mb-4 text-gray-900 tracking-widest">
             OUR TEAM
           </h1>
-          <p className="lg:w-2/3 lg:ext-[47px]  text-[28px] mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 lg:Text-[47px]  text-[32px] mx-auto leading-relaxed text-base">
           Meet the Dedicated Minds Behind
           </p>
         </div>

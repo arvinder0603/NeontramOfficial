@@ -15,6 +15,7 @@ import r1 from "../../assets/r1.png"
 import r2 from "../../assets/r2.png"
 import Contact from '@/components/Contact';
 import Test from '@/components/Test';
+import MapPage from '@/components/MapPage';
 
 
 
@@ -44,7 +45,7 @@ const LandPage = () => {
           </h1>
           <div className='flex justify-center lg:flex-row flex-col gap-12 m-6'>
             <Image src={r1} alt='.' />
-            <Image src={r2} alt='.' />
+            <Image className='w-[450px]' src={r2} alt='.' />
           </div>
 
         </div>
@@ -53,7 +54,8 @@ const LandPage = () => {
 
         <Team />
 
-        <Contact />
+        
+        <MapPage/>
 
 
         <Footer />

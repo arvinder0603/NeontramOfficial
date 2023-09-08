@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container  py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">Contact us</h2>
+            <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">Head office</h2>
             <nav className="list-none mb-10">
             <p className='lg:text-[17px] text-[12px]'>
               #308, East wing, M. Visvesvaraya Block
@@ -28,7 +28,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">At</h2>
+            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Branch office</h2>
             <nav className="list-none mb-10">
             <p className='lg:text-[17px]  text-[12px]'>
              Regd. Office:
@@ -40,17 +40,24 @@ const Footer = () => {
         
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-2xl mb-3">Neontram</h2>
-            <div className='flex justify-end'>
-            <Image className='h-[300px] w-[420px] flex ' src={image} alt='/'></Image>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex justify-center">
+            <h2 className="title-font font-medium text-white flex justify-center tracking-widest text-2xl mb-3">Neontram</h2>
+            <div className=' flex justify-center '>
+            <Image className=' ' src={image} alt='/'></Image>
            </div>
            
 
           </div>
         
         </div>
-        <div className='flex gap-1'><h1></h1>Copyright <AiOutlineCopyrightCircle size={20}/> <h1>2023 Neontram</h1></div>
+        <div className='flex justify-center gap-10'>
+        <div className='flex gap-1'><h1></h1>Copyright <AiOutlineCopyrightCircle size={20}/> <h1>2023 Neontram</h1>
+       
+       </div>
+       <h1>Powered by Neontram</h1>
+
+        </div>
+       
        
       </div>
      
