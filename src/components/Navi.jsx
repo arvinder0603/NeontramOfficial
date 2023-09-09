@@ -27,8 +27,8 @@ const Navi = () => {
       </div>
 
       <div className='flex justify-center m-5 '>
-      {/* <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp> */}
-       <AiOutlineShoppingCart size={50}/>
+      <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp>
+      
       </div>
        
     </div>
