@@ -16,6 +16,7 @@ import r2 from "../../assets/r2.png"
 import Contact from '@/components/Contact';
 import Test from '@/components/Test';
 import MapPage from '@/components/MapPage';
+import Prev from '@/components/Prev';
 
 
 
@@ -34,8 +35,14 @@ const LandPage = () => {
 
 
 
+       <div className='mb-[200px] mt-[200px]'>
+      <h1 className='text-center lg:text-[68px] text-[43px] font-serif font-bold'>Our Products</h1>
+       <Prev/>
 
-        <Products />
+       <h1 className='text-center  text-[30px]'>🎉 Limited Time Offer: Enjoy a 20% Discount on products!</h1>
+
+       </div>
+    
 
         <div className='flex justify-center flex-col bg-[#DFCAB9] rounded-3xl'>
 
@@ -56,7 +63,9 @@ const LandPage = () => {
 
         
         <MapPage/>
+         
 
+       
 
         <Footer />
 

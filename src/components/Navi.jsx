@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { Link } from 'react-scroll';
-
+import { AiOutlineShoppingCart} from "react-icons/ai";
 import ReactWhatsapp from 'react-whatsapp';
 
 
@@ -26,9 +26,9 @@ const Navi = () => {
        </ul>
       </div>
 
-      <div className='flex justify-center m-4 '>
-      <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp>
-       
+      <div className='flex justify-center m-5 '>
+      {/* <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp> */}
+       <AiOutlineShoppingCart size={50}/>
       </div>
        
     </div>
