@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Carti = ({ cart, updateQuantity, closeCart }) => {
 
@@ -20,6 +22,7 @@ const Carti = ({ cart, updateQuantity, closeCart }) => {
     setName('');
     setMail('');
     setText('');
+
   }
 
   const [formData, setFormData] = useState({
@@ -70,7 +73,12 @@ const Carti = ({ cart, updateQuantity, closeCart }) => {
    
   }
 
-
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    })  
+  }, []);
 
 
 
@@ -81,7 +89,7 @@ const Carti = ({ cart, updateQuantity, closeCart }) => {
 
 
   return (
-    <div className="max-w-md mx-auto bg- p-4 md:p-8 border border-gray-300 rounded-lg bg-[#F9EBDC]  shadow-lg">
+    <div data-aos="fade-up-left"  className="max-w-md mx-auto bg- p-4 md:p-8 border border-gray-300 rounded-lg bg-[#F9EBDC]  shadow-lg">
       <div className="max-w-md mx-auto bg-[#F9EBDC] p-4 md:p-8 border border-gray-300 rounded-lg shadow-lg">
   <h2 className="text-xl font-semibold mb-4">Cart</h2>
   <ul className="mb-4">

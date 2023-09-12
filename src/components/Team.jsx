@@ -87,7 +87,7 @@ const Team = () => {
       name: 'Gurupad ray',
       role: 'Software Development intern',
       bio: 'WEB DEVELOPMENT INTERN',
-      imageUrl: 'https://media.licdn.com/dms/image/D4D03AQFm9nZvicodpw/profile-displayphoto-shrink_400_400/0/1684917528193?e=1699488000&v=beta&t=Cn3JZu9oJH3Ggpzvflycq3wgC2xlmjVyuv7DEBEy3GY',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PhotoFormal.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -105,7 +105,7 @@ const Team = () => {
   ];
 
   return (
-    <section id="team"  
+    <section   id="team"
    
     className=" body-font  justify-center">
       <div className="container px-5 py-24 mx-auto flex justify-center flex-col">
@@ -124,7 +124,7 @@ const Team = () => {
               <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center shadow-2xl rounded-3xl">
                 <img
                   alt={member.name}
-                  className="flex-shrink-0  m-6 rounded-lg w-48 h-50 object-cover object-center sm:mb-0 mb-4"
+                  className="flex-shrink-0  m-6 rounded-lg w-48 h-46 object-cover object-center sm:mb-0 mb-4"
                   src={member.imageUrl}
                 />
                 <div className="flex-grow">

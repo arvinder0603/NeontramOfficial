@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import bed2 from "../assets/bed2.jpg"
 import Image from 'next/image'
 import pr from "../assets/pr.png"
@@ -7,6 +7,7 @@ import Carti from './Carti'
 
 
 const Prev = () => {
+
   const [isClicked, setIsClicked] = useState(false);
   const [showCart, setShowCart] = useState(false);
 
@@ -157,7 +158,8 @@ const Prev = () => {
                 <span className="title-font font-medium text-2xl text-gray-900">₹ 11999</span>
                 <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
                   onClick={() => {
-                    addToCart({ name: "Anti-Sore Neontal Bed", price: 11999 }); // Add product to cart
+                    addToCart({ name: "Anti-Sore Neontal Bed", price: 11999 });
+                    setShowCart(true) // Add product to cart
                   }}
                 >
                 Add to cart
@@ -285,7 +287,8 @@ const Prev = () => {
                 <span className="title-font font-medium text-2xl text-gray-900">₹ 17999</span>
                 <button
                   onClick={() => {
-                    addToCart({ name: "Neonatal Formula Milk Dispenser", price: 17999 }); // Add product to cart
+                    addToCart({ name: "Neonatal Formula Milk Dispenser", price: 17999 }); 
+                    setShowCart(true) 
                   }}
 
                   className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
