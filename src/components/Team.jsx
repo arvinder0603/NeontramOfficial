@@ -1,6 +1,7 @@
-
-import React from 'react';
-
+"use client"
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import Image from 'next/image';
@@ -11,6 +12,12 @@ import fam from '../assets/fam.png';
 
 const Team = () => {
   
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    })  
+  }, []);
   const teamMembers = [
     {
       name: 'Adarsha Narayan Mallick',
@@ -98,7 +105,9 @@ const Team = () => {
   ];
 
   return (
-    <section id="team"  className=" body-font  justify-center">
+    <section id="team"  
+   
+    className=" body-font  justify-center">
       <div className="container px-5 py-24 mx-auto flex justify-center flex-col">
         <div  className="flex flex-col text-center w-full mb-20">
           <h1 className="lg:text-[70px] text-[35px] font-medium title-font mb-4 text-gray-900 tracking-widest">
@@ -109,9 +118,9 @@ const Team = () => {
           </p>
         </div>
         <div className='flex justify-center'>
-        <div className="flex flex-wrap justify-center ">
+        <div  data-aos="fade-up"  className="flex flex-wrap justify-center ">
           {teamMembers.map((member, index) => (
-            <div key={index} className="p-4 md:w-1/2 lg:w-1/3">
+            <div  data-aos="fade-up" key={index} className="p-4 md:w-1/2 lg:w-1/3">
               <div className="h-full flex flex-col items-center sm:justify-start justify-center text-center shadow-2xl rounded-3xl">
                 <img
                   alt={member.name}

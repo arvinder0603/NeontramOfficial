@@ -41,20 +41,20 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex justify-center">
-            <h2 className="title-font font-medium text-white flex justify-center tracking-widest text-2xl mb-3">Neontram</h2>
+            <h2 className="title-font font-medium text-white flex justify-center tracking-widest text-2xl  text-center mb-3">Neontram</h2>
             <div className=' flex justify-center '>
-            <Image className=' ' src={image} alt='/'></Image>
+            <Image className=' h-[150px] w-[200px]  lg:h-max' src={image} alt='/'></Image>
            </div>
            
 
           </div>
         
         </div>
-        <div className='flex justify-center gap-10'>
-        <div className='flex gap-1'><h1></h1>Copyright <AiOutlineCopyrightCircle size={20}/> <h1>2023 Neontram</h1>
+        <div className='flex justify-center lg:flex-row flex-col gap-10 text-center'>
+        <div className='flex gap-1 text-center'><h1></h1>Copyright <AiOutlineCopyrightCircle size={20}/> <h1>2023 Neontram</h1>
        
        </div>
-       <h1>Powered by Neontram</h1>
+       <h1 className=''>Powered by Neontram</h1>
 
         </div>
        
