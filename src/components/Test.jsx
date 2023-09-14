@@ -11,7 +11,7 @@ import birac from '../assets/birac.png'
 import firr from '../assets/firr.png'
 const Test = () => {
   return (
-    <section className="text-gray-600 body-font" id="products"> 
+    <section className="text-gray-600 body-font" > 
     <div className="container px-5 py-24 mx-auto  flex flex-wrap">
       <div className="flex w-full mb-20 flex-wrap">
         <h1 className="lg:text-[60px] text-[38px] font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
