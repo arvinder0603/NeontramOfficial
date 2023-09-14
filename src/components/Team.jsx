@@ -78,7 +78,7 @@ const Team = () => {
       name: ' Prabhas Chandra Sankhua',
       role: 'Web Intern',
       bio: 'FULL STACK  INTERN',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/DSC_8008-01.jpg',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/b801ff74-78f1-4a36-a8ac-fac6d56d7781.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
@@ -87,7 +87,7 @@ const Team = () => {
       name: 'Gurupad ray',
       role: 'Software Development intern',
       bio: 'WEB DEVELOPMENT INTERN',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/PhotoFormal.jpg',
+      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/0c4d87cf-0a71-44eb-b3b4-8ca88291e015.jpg',
       socialMedia: [
         // Define social media links for this team member
       ],
