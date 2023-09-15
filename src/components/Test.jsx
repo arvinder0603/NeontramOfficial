@@ -5,7 +5,7 @@ import bed2 from "../assets/bed2.jpg"
 import bedrev from "../assets/bedrev.png"
 import bedchild from "../assets/bedchild.png"
 import revdoc from "../assets/revdoc.jpg"
-import pr2 from "../assets/pr2.png"
+import pr2 from "../assets/pr2.jpg"
 import bed3 from "../assets/bed3.jpg"
 import birac from '../assets/birac.png'
 import firr from '../assets/firr.png'
@@ -25,15 +25,16 @@ const Test = () => {
       </div>
       <div className="flex flex-wrap md:-m-2 -m-1">
         <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-">
+            <Image alt="gallery" className="w-full h-full object-cover object-center block" src={bedrev} />
+          </div>
           <div className="md:p-2 p-1 w-1/2">
             <Image alt="gallery" className="w-full object-cover h-full object-center block" src={bed2} />
           </div>
           <div className="md:p-2 p-1 w-1/2">
             <Image alt="gallery" className="w-full object-cover h-full object-center block" src={bed3} />
           </div>
-          <div className="md:p-2 p-1 w-full">
-            <Image alt="gallery" className="w-full h-full object-cover object-center block" src={bedrev} />
-          </div>
+         
         </div>
         <div className="flex flex-wrap w-1/2">
           <div className="md:p-2 p-1 w-full">
@@ -42,7 +43,7 @@ const Test = () => {
           <div className="md:p-2 p-1 w-1/2">
             <Image alt="gallery" className="w-full object-cover h-full object-center block" src={pr} />
           </div>
-          <div className="md:p-2 p-1 w-1/3">
+          <div className="md:p-2 p-1 w-1/2">
             <Image alt="gallery" className="w-full object-cover h-full object-center block" src={pr2} />
           </div>
         </div>
