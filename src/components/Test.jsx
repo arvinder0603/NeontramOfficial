@@ -55,7 +55,7 @@ const Test = () => {
 
       <div className='flex justify-center mb-16' >
 
-      <iframe  className='lg:h-[400px] lg:w-[700px] h-[300px] w-full'  src="https://www.youtube.com/embed/6Ec9PPECyfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe  className='lg:h-[400px] lg:w-[700px] h-[300px] w-full'  src="https://www.youtube.com/embed/JH06b85mtqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div className='flex justify-center m-6 '>
