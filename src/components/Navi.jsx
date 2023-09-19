@@ -7,7 +7,7 @@ import ReactWhatsapp from 'react-whatsapp';
 
 const Navi = () => {
   return (
-    <div  className='flex justify-between border-b-2 h-[80px]  bg-[#F9EBDC]'>
+    <div  className='flex justify-between border-b-2 h-[80px] bg-[#F9EBDC]'>
       
       
       <div className='flex justify-center m-5'>

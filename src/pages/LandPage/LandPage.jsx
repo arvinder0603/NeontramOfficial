@@ -2,6 +2,7 @@
 import Navi from '@/components/Navi';
 import React from 'react';
 import Image from 'next/image';
+import ReactPlayer from 'react-player'
 
 import { AiFillCheckSquare } from "react-icons/ai";
 
@@ -35,14 +36,14 @@ const LandPage = () => {
 
 
 
-       <div className='mb-[200px] mt-[200px]'>
-      <h1 className='text-center lg:text-[68px] text-[43px] font-serif font-bold'>Our Products</h1>
-       <Prev/>
+        <div className='mb-[200px] mt-[200px]'>
+          <h1 className='text-center lg:text-[68px] text-[43px] font-serif font-bold'>Our Products</h1>
+          <Prev />
 
-       <h1 className='text-center  text-[30px]'>🎉 Limited Time Offer: Enjoy a 20% Discount on products!</h1>
+          <h1 className='text-center  text-[30px]'>🎉 Limited Time Offer: Enjoy a 20% Discount on products!</h1>
 
-       </div>
-    
+        </div>
+
 
         <div className='flex justify-center flex-col bg-[#DFCAB9] rounded-3xl'>
 
@@ -57,15 +58,21 @@ const LandPage = () => {
 
         </div>
 
-        <Test/>
+        <Test />
+
+
+
+   
 
         <Team />
 
-        
-        <MapPage/>
-         
 
-       
+
+
+        <MapPage />
+
+
+
 
         <Footer />
 
