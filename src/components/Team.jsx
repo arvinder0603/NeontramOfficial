@@ -82,15 +82,7 @@ const Team = () => {
         { platform: 'LinkedIn', link: 'https://www.linkedin.com/in/barenya-sarangi/' },
       ],
     },
-    {
-      name: 'Gurupad ray',
-      role: 'Software Development intern',
-      bio: 'WEB DEVELOPMENT INTERN',
-      imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/0c4d87cf-0a71-44eb-b3b4-8ca88291e015.jpg',
-      socialMedia: [
-        { platform: 'LinkedIn', link: 'https://www.linkedin.com/in/gurupad-ray-125254151/' },
-      ],
-    },
+ 
  
     {
       name: 'Ms Barenya Sarangi',
