@@ -23,6 +23,7 @@ const Navi = () => {
 
         <Link to="products" smooth={true} duration={500}  >P R O D U C T S</Link>
         <Link to="team" smooth={true} duration={500}  >T E A M</Link>
+        <Link to="contact" smooth={true} duration={500}  >C A R E E R</Link>
        </ul>
       </div>
 

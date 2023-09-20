@@ -2,7 +2,7 @@ import React from 'react'
 import pr from "../assets/pr.png"
 import Image from 'next/image'
 import bed2 from "../assets/bed2.jpg"
-import bedrev from "../assets/bedrev.png"
+import bedrev from "../assets/bedrev.jpg"
 import bedchild from "../assets/bedchild.png"
 import revdoc from "../assets/revdoc.jpg"
 import pr2 from "../assets/pr2.jpg"

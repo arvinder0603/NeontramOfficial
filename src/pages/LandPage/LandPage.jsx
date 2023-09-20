@@ -14,7 +14,7 @@ import Team from '@/components/Team';
 import Footer from '@/components/Footer';
 import r1 from "../../assets/r1.png"
 import r2 from "../../assets/r2.png"
-import Contact from '@/components/Contact';
+
 import Test from '@/components/Test';
 import MapPage from '@/components/MapPage';
 import Prev from '@/components/Prev';
