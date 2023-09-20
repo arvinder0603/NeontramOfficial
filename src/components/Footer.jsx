@@ -51,9 +51,7 @@ const Footer = () => {
         
         </div>
 
-        <div>
-          <h1>dkdhjb</h1>
-        </div>
+      
         <div className='flex justify-center lg:flex-row flex-col gap-10 text-center'>
         <div className='flex gap-1 justify-center mt-2 text-center'><h1></h1>Copyright <AiOutlineCopyrightCircle size={20}/> <h1>2023 Neontram</h1>
        
