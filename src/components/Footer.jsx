@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex justify-center">
             <h2 className="title-font font-medium text-white flex justify-center tracking-widest text-2xl  text-center mb-3">Neontram</h2>
             <div className=' flex justify-center '>
-            <Image className=' h-[150px] w-[200px]  lg:h-max' src={image} alt='/'></Image>
+            <Image className=' w-[200px]  h-max' src={image} alt='/'></Image>
            </div>
            
 
