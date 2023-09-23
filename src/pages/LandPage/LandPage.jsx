@@ -18,6 +18,7 @@ import r2 from "../../assets/r2.png"
 import Test from '@/components/Test';
 import MapPage from '@/components/MapPage';
 import Prev from '@/components/Prev';
+import Link from 'next/link';
 
 
 
@@ -29,7 +30,7 @@ const LandPage = () => {
 
         <Navi />
 
-
+  
 
         <Front />
 
@@ -38,6 +39,9 @@ const LandPage = () => {
 
         <div className='mb-[200px] mt-[200px]'>
           <h1 className='text-center lg:text-[68px] text-[43px] font-serif font-bold'>Our Products</h1>
+          <div className='flex justify-center'>
+          <Link className='text-[30px] shadow-2xl rounded-3xl w-[260px] text-center h-[50px]' href="/gallary">G A L L E R Y</Link>
+          </div>
           <Prev />
 
           <h1 className='text-center  text-[30px]'>🎉 Limited Time Offer: Enjoy a 20% Discount on products!</h1>
@@ -60,6 +64,8 @@ const LandPage = () => {
 
         <Test />
 
+        
+      
 
 
    

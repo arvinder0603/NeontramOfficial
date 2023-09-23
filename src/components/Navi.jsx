@@ -4,7 +4,6 @@ import { Link } from 'react-scroll';
 import { AiOutlineShoppingCart} from "react-icons/ai";
 import ReactWhatsapp from 'react-whatsapp';
 
-
 const Navi = () => {
   return (
     <div  className='flex justify-between border-b-2 h-[80px] bg-[#F9EBDC]'>
@@ -24,7 +23,7 @@ const Navi = () => {
         <Link to="products" smooth={true} duration={500}  >P R O D U C T S</Link>
         <Link to="team" smooth={true} duration={500}  >T E A M</Link>
         <Link to="contact" smooth={true} duration={500}  >C A R E E R</Link>
-       </ul>
+           </ul>
       </div>
 
       <div className='flex justify-center m-5 '>

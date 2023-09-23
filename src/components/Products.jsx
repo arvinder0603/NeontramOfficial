@@ -5,6 +5,7 @@ import bed2 from "../assets/bed2.jpg"
 import pr from "../assets/pr.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { AiFillAccountBook } from 'react-icons/ai'
 const Products = () => {
   useEffect(() => {
     AOS.init({
@@ -21,6 +22,8 @@ const Products = () => {
       <h1 className='lg:text-[120px] text-[60px]  font-semibold drop-shadow-2xl mt-32  rounded-3xl '>
         Our Products
       </h1>
+
+        <AiFillAccountBook size={33}/>
       </div>
      
         <div className='grid lg:grid-cols-2 gap-32 mt-[150px]'>
