@@ -25,7 +25,7 @@ const page = () => {
        <div className="lex justify-center flex-col mt-[200px] ">
        <div className='grid lg:grid-cols-3 gap-8 grid-rows-2  justify-center'>
 
-<Image alt='/' className=':h-[400px] w-[500px] rounded-3xl h-[300px]rounded-3xl shadow-2xl hover:shadow-[#000330] duration-100 delay-100' src={Gal1}></Image>
+<Image alt='/' className=':h-[300px] w-[500px] rounded-3xl h-[300px]rounded-3xl shadow-2xl hover:shadow-[#000330] duration-100 delay-100' src={Gal1}></Image>
 
 
 <Image alt='/' className=':h-[400px] w-[500px] rounded-3xl h-[300px]rounded-3xl shadow-2xl  hover:shadow-[#000330] delay-100'  src={Gal2}></Image>
