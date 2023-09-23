@@ -58,11 +58,7 @@ const Footer = () => {
        </div>
        
        <h1 className='mt-2 text-center'>Powered by Neontram</h1>
-       <div className='flex flex-col justify-center items-center gap-6 m-4'>
-       <a  href="neontram\src\assets\NEONTRAM_9078825885_certificate_2023-09-21[912].pdf" className='text-[20px] bg-teal-100 text-black font-semibold  h-[60px] w-[200px] text-center rounded-xl' download>Legal Certificate </a>
-       <a  href="neontram\src\assets\startup.pdf" className='text-[20px] bg-teal-100 text-black font-semibold  h-[60px] w-[200px] text-center rounded-xl' download>Startup India <br/> Certificate </a>
-
-       </div>
+       
      
         </div>
        

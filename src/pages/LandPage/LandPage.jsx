@@ -56,8 +56,17 @@ const LandPage = () => {
             Recognised By
           </h1>
           <div className='flex justify-center lg:flex-row flex-col gap-12 m-6'>
+            <a href='https://document-export.canva.com/A93Hk/DAFvR7A93Hk/2/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230922%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230922T154022Z&X-Amz-Expires=87940&X-Amz-Signature=f0c88a1b93bbd75d41a2ac395c786fbc927c5bfdd5ebd5f24e4617bca1e3d1f4&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2023%20Sep%202023%2016%3A06%3A02%20GMT'>
             <Image src={r1} alt='.' />
+
+            </a>
+
+            <a href='https://document-export.canva.com/pqQ1M/DAFvR_pqQ1M/2/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230922%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230922T215124Z&X-Amz-Expires=68094&X-Amz-Signature=6204e2f5e82200edf872065b0b17f3e05f255e069d6be2929958cd6f2273e30e&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2023%20Sep%202023%2016%3A46%3A18%20GMT'>
+
             <Image className='w-[450px]' src={r2} alt='.' />
+            </a>
+           
+           
           </div>
 
         </div>
