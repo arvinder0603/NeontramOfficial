@@ -57,8 +57,8 @@ const Team = () => {
     },
     {
       name: 'Nathasha V P ',
-      role: 'Electronic Engineer',
-      bio: '',
+      
+      bio: 'Electronic Engineer',
       imageUrl: 'https://media.licdn.com/dms/image/C4D03AQEwU3ivIIUL1w/profile-displayphoto-shrink_400_400/0/1659723947080?e=1699488000&v=beta&t=36kkCNlm5xSRKYGaPTDIj4km9j0spvlC4JgKB2K1EL8',
       socialMedia: [
         { platform: 'LinkedIn', link: 'https://www.linkedin.com/in/nathasha-vp-993bb1222/' },
@@ -66,7 +66,7 @@ const Team = () => {
     },
     {
       name: 'Arvinder Singh',
-      role: 'Web Intern',
+     
       bio: 'FULL STACK  INTERN',
       imageUrl: 'https://media.licdn.com/dms/image/C4E03AQHfSVY-FWBYCQ/profile-displayphoto-shrink_800_800/0/1634400083038?e=1698883200&v=beta&t=TGeJ9i9-oFKpl1jnNA8tqG4_ywclaKY5dFpwYzbJXH4',
       socialMedia: [
@@ -75,7 +75,7 @@ const Team = () => {
     },
     {
       name: ' Prabhas Chandra Sankhua',
-      role: 'Web Intern',
+     
       bio: 'FULL STACK  INTERN',
       imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/b801ff74-78f1-4a36-a8ac-fac6d56d7781.jpg',
       socialMedia: [
@@ -86,8 +86,8 @@ const Team = () => {
  
     {
       name: 'Ms Barenya Sarangi',
-      role: 'Marketing Intern',
-      bio: '',
+      
+      bio: 'Marketing Intern',
       imageUrl: 'https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/a8f896e2-df4a-40b4-ae3d-3f3a837f0dbb.jpg',
       socialMedia: [
       
