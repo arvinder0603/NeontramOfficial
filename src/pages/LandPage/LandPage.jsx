@@ -57,14 +57,15 @@ const LandPage = () => {
             Recognised By
           </h1>
           <div className='flex justify-center lg:flex-row flex-col gap-12 m-6'>
-            <a href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/NEONTRAM_9078825885_certificate_2023-09-21%5B912%5D.pdf.png'>
+            <a  href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/startup.pdf.png'
+           >
               <Image src={r1} alt='.' />
 
             </a>
 
-            <a href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/startup.pdf.png'>
+            <a  href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/NEONTRAM_9078825885_certificate_2023-09-21%5B912%5D.pdf.png'>
 
-              <Image className='w-[450px]' src={r2} alt='.' />
+              <Image  className='w-[450px]' src={r2} alt='.' />
             </a>
 
 
