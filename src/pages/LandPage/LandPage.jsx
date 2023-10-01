@@ -63,7 +63,7 @@ const LandPage = () => {
 
             </a>
 
-            <a  href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/NEONTRAM_9078825885_certificate_2023-09-21%5B912%5D.pdf.png'>
+            <a  href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/download.png'>
 
               <Image  className='w-[450px]' src={r2} alt='.' />
             </a>

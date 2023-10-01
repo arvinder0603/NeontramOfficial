@@ -20,7 +20,7 @@ const page = () => {
      <>
     <div className=' bg-[url("https://img.freepik.com/free-photo/sunny-watercolor-texture-background_1083-167.jpg?1&w=1800&t=st=1695897428~exp=1695898028~hmac=2e097156decca99aa371c445943f8825b7683427684002b3d2bce63ab1f91fca")] bg-cover bg-no-repeat  w-[100vw] flex justify-center items-center flex-col ' >  
       <h1 className='m-4 lg:text-[70px] font-bold text-[40px] text-center mt-12 font-serif'>
-        Anti-Pressure Alsar Neontal Bed
+        Anti-Pressure Ulcers Neontal Bed
       </h1>
       
        
@@ -47,7 +47,7 @@ const page = () => {
 
 
 
-<h1 className='m-4 mt-[200px] font-extrabold lg:text-[70px] text-[35px] font-serif text-center' >Sensitive Resitors and PCB </h1>
+<h1 className='m-4 mt-[200px] font-extrabold lg:text-[70px] text-[35px] font-serif text-center' >Force Sensitive Resitors and PCB </h1>
 
 
 <div className="lex justify-center flex-col mt-[200px] ">

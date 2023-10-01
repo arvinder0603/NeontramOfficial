@@ -32,7 +32,7 @@ export const Front = () => {
 
       <div className='flex justify-center  p-5 ml-5'>
       <h1 className='lg:text-[40px] text-[20px] text-gray-600' ><span className='  text-[#ff9900] '>At Neontram </span>
-        we create brighter begnnings for your little ones. As pioneers in newborn products, we design smart solutions that make parenting easier and enrich early life stages. Our excellence and passion shape a better future for the next generation.
+        we create brighter beginning for your little ones. As pioneers in newborn products, we design smart solutions that make parenting easier and enrich early life stages. Our excellence and passion shape a better future for the next generation.
        </h1>
       </div>
        
