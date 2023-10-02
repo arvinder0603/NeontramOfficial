@@ -18,9 +18,9 @@ import Footer from '@/components/Footer'
 const page = () => {
   return (
      <>
-    <div className=' bg-[url("https://img.freepik.com/free-photo/sunny-watercolor-texture-background_1083-167.jpg?1&w=1800&t=st=1695897428~exp=1695898028~hmac=2e097156decca99aa371c445943f8825b7683427684002b3d2bce63ab1f91fca")] bg-cover bg-no-repeat  w-[100vw] flex justify-center items-center flex-col ' >  
+    <div className=' bg-[url("https://images.unsplash.com/photo-1636955903101-d6b4b926018c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80")] bg-cover bg-no-repeat   w-[100vw] flex justify-center items-center flex-col ' >  
       <h1 className='m-4 lg:text-[70px] font-bold text-[40px] text-center mt-12 font-serif'>
-        Anti-Pressure Ulcers Neontal Bed
+        Anti-Pressure Ulcers Neonatal Bed
       </h1>
       
        

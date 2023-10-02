@@ -8,7 +8,7 @@ import { AiFillCheckSquare } from "react-icons/ai";
 
 import { Front } from '@/components/Front';
 import Why from '@/components/Why';
-import Products from '@/components/Products';
+
 import Review from '@/components/Review';
 import Team from '@/components/Team';
 import Footer from '@/components/Footer';
@@ -41,7 +41,13 @@ const LandPage = () => {
         <div className='mb-[200px] mt-[200px]'>
           <h1 className='text-center lg:text-[68px] text-[43px] font-serif font-bold'>Our Products</h1>
           <div className='flex justify-center'>
-            <Link className='text-[30px] shadow-2xl rounded-3xl w-[260px] text-center h-[50px]' href="/gallary">G A L L E R Y</Link>
+            <a
+              className='text-[30px] shadow-2xl rounded-3xl w-[260px] text-center h-[50px]'
+              href="/gallary"
+              target="_blank"  // This will open the link in a new tab
+            >
+              G A L L E R Y
+            </a>
           </div>
           <Prev />
 
@@ -57,15 +63,15 @@ const LandPage = () => {
             Recognised By
           </h1>
           <div className='flex justify-center lg:flex-row flex-col gap-12 m-6'>
-            <a  href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/startup.pdf.png'
-           >
-              <Image src={r1} alt='.' />
+            <a href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/startup.pdf.png'
+            >
+              <Image src={r1} className='w-[450px] hover:w-[490px]' alt='.' />
 
             </a>
 
-            <a  href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/download.png'>
+            <a href='https://raw.githubusercontent.com/arvinder0603/IMaGES-DATA/main/download.png'>
 
-              <Image  className='w-[450px]' src={r2} alt='.' />
+              <Image className='w-[450px] hover:w-[490px]' src={r2} alt='.' />
             </a>
 
 
@@ -85,30 +91,30 @@ const LandPage = () => {
 
 
 
-        <div className='text-center lg:text-[20px]  font-semibold mb-12'>
-  <h1 className='mb-8'>
-    <span className='lg:text-[35px] font-extrabold text-[24px]' >🌟 Exciting Opportunities Await! 🌟</span>
-  </h1>
-  
-  <div className='mb-6'>
-    <span className='lg:text-[26px] text-[22px] font-semibold'>👩‍⚕️ Nursing Staff Wanted 👨‍⚕️</span>
-    <p className='mt-2'>
-      Are you a compassionate and skilled nurse looking to make a difference? Join our team and be a part of providing top-notch care to those in need.
-    </p>
-  </div>
-  
-  <div className='mb-6'>
-    <span className='lg:text-[26px] text-[22px] font-semibold'>🛠️ Embedded Engineer Wanted 🖥️</span>
-    <p className='mt-2'>
-      Do you have a passion for technology and a knack for embedded systems? Join us in revolutionizing the digital world with innovative solutions.
-    </p>
-  </div>
+        <div id="contacts" className='text-center lg:text-[20px]  font-semibold mb-12'>
+          <h1 className='mb-8'>
+            <span className='lg:text-[35px] font-extrabold text-[24px]' >🌟 Exciting Opportunities Await! 🌟</span>
+          </h1>
 
-  <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp>
-      
+          <div className='mb-6'>
+            <span className='lg:text-[26px] text-[22px] font-semibold'>👩‍⚕️ Nursing Staff Wanted 👨‍⚕️</span>
+            <p className='mt-2'>
+              Are you a compassionate and skilled nurse looking to make a difference? Join our team and be a part of providing top-notch care to those in need.
+            </p>
+          </div>
 
-  
-</div>
+          <div className='mb-6'>
+            <span className='lg:text-[26px] text-[22px] font-semibold'>🛠️ Embedded Engineer Wanted 🖥️</span>
+            <p className='mt-2'>
+              Do you have a passion for technology and a knack for embedded systems? Join us in revolutionizing the digital world with innovative solutions.
+            </p>
+          </div>
+
+          <ReactWhatsapp className='bg-[#ff9900] text-white h-[50px] w-[120px] rounded-xl shadow-2xl' number="+919078825885" message="Hello neontram!!"  > Contact us</ReactWhatsapp>
+
+
+
+        </div>
 
 
 

@@ -12,7 +12,7 @@ const Prev = () => {
   const [showCart, setShowCart] = useState(false);
 
 
-  const [cart, SetCart] = useState([])
+  // const [cart, SetCart] = useState([])
 
 
   const addToCart = (product) => {

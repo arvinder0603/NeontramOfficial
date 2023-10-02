@@ -26,25 +26,25 @@ const Test = () => {
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-full">
-              <Image alt="gallery" className="w-full h-full object-cover object-center block" src={bedrev} />
+              <Image alt="gallery" className=" shadow-2xl rounded-xl w-full h-full object-cover object-center block" src={bedrev} />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" className="w-full h-full object-center block" src={bed2} />
+              <Image alt="gallery" className=" shadow-2xl rounded-xl w-full h-full object-center block" src={bed2} />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" className="w-full  h-full object-center block" src={bed3} />
+              <Image alt="gallery" className=" shadow-2xl rounded-xl w-full  h-full object-center block" src={bed3} />
             </div>
 
           </div>
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-full">
-              <Image alt="gallery" className="w-full h-full object-cover object-center block" src={revdoc} />
+              <Image alt="gallery" className=" shadow-2xl rounded-xl w-full h-full object-cover object-center block" src={revdoc} />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" className="w-full object-cover h-full object-center block" src={pr} />
+              <Image alt="gallery" className=" shadow-2xl rounded-xl w-full object-cover h-full object-center block" src={pr} />
             </div>
             <div className="md:p-2 p-1 w-1/2">
-              <Image alt="gallery" className="w-full object-cover h-full object-center block" src={pr2} />
+              <Image alt="gallery" className=" shadow-2xl rounded-xl w-full object-cover h-full object-center block" src={pr2} />
             </div>
           </div>
         </div>
