@@ -55,9 +55,11 @@ const Navi = () => {
         </div>
         {showMenu && (
           <div className='absolute top-[80px] right-0 bg-[#F9EBDC] p-4 w-full shadow'>
-            <ul className='text-[13px] text-gray-600 font-semibold cursor-pointer flex gap-12 tracking-wide'>
-             
-              <Link to='products' className='text-[15px]' smooth={true} duration={500}>
+            <ul className='text-[12px] text-gray-600 font-semibold cursor-pointer flex gap-8 tracking-wide'>
+            <a className='' href='/' target='_blank'>
+                Home
+              </a>
+              <Link to='products' className='' smooth={true} duration={500}>
                Products
               </Link>
               <Link to='team' smooth={true} duration={500}>
