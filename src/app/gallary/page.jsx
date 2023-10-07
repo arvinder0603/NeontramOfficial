@@ -100,7 +100,7 @@ const page = () => {
 
 
         </div>
-        <h1 className='m-45  mt-[200px] font-extrabold lg:text-[70px] text-[35px] font-serif text-center' >Neontal Formula Milk Dispenser</h1>
+        <h1 className='m-45  mt-[200px] font-extrabold lg:text-[70px] text-[35px] font-serif text-center' >Neonatal Formula Milk Dispenser</h1>
 
         <div className="lex justify-center flex-col mt-[200px] mb-24 ">
 
