@@ -54,9 +54,9 @@ const Navi = () => {
           <AiOutlineMenuUnfold size={30} />
         </div>
         {showMenu && (
-          <div className='absolute top-[80px] right-0 bg-[#F9EBDC] p-4 shadow'>
+          <div className='absolute top-[80px] right-0 bg-[#F9EBDC] p-4 w-full shadow'>
             <ul className='text-[13px] text-gray-600 font-semibold cursor-pointer flex gap-12 tracking-wide'>
-              <li className='focus:border-b-4 text-[15px] border-[#4166f9]'>Home</li>
+             
               <Link to='products' className='text-[15px]' smooth={true} duration={500}>
                Products
               </Link>

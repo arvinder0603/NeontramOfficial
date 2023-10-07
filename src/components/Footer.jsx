@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import {  AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare ,AiOutlineCopyrightCircle} from "react-icons/ai";
+import {  AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare ,AiFillYoutube,AiOutlineCopyrightCircle} from "react-icons/ai";
 import Image from 'next/image';
 
 import image from "../assets/image.png"
@@ -93,6 +93,13 @@ const Footer = () => {
               <Link href='https://instagram.com/neontram_pvt_ltd?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'>
                 <h1 className='hover:text-white'>
                   <AiFillInstagram size={45} />
+                </h1>
+              </Link>
+            </li>
+            <li>
+              <Link href='https://www.youtube.com/watch?v=JH06b85mtqo'>
+                <h1 className='hover:text-white'>
+                  <AiFillYoutube size={45} />
                 </h1>
               </Link>
             </li>

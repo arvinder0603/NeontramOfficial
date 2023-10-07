@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player'
 import { AiFillCheckSquare } from "react-icons/ai";
 
 import { Front } from '@/components/Front';
-import Why from '@/components/Why';
+
 
 import Review from '@/components/Review';
 import Team from '@/components/Team';
@@ -42,13 +42,26 @@ const LandPage = () => {
           <h1 className='text-center lg:text-[68px] text-[43px] font-serif font-bold'>Our Products</h1>
           <div className='flex justify-center'>
             <a
-              className='text-[30px] shadow-2xl rounded-3xl w-[260px] text-center h-[50px]'
+              className='text-[30px] shadow-2xl outline rounded-lg w-[260px] text-center h-[50px]'
               href="/gallary"
-              target="_blank"  // This will open the link in a new tab
+              target="_blank"  
             >
               G A L L E R Y
             </a>
           </div>
+
+          <div  className='flex justify-center flex-col'>
+        <h1 className='text-center mt-6 font-bold lg:text-[40px]  text-[20px] font-mono'>Buy our product at Amazon!!!</h1>
+           
+           <div className='flex justify-center mt-4'>
+           <button className='text-[20px] outline outline-3 rounded-lg w-[100px] shadow-2xl shadow-black '>
+           
+             <a  target='_blank' href='https://www.amazon.in/dp/B0CCD6MQ4P?ref_=cm_sw_r_mwn_dp_H2DJHCHBMNZ8PNJ7J7ZK'>  Buy here</a>
+          </button>
+           </div>
+          
+          
+       </div>
           <Prev />
 
           <h1 className='text-center  text-[30px]'>🎉 Limited Time Offer: Enjoy a 20% Discount on products!</h1>
@@ -78,6 +91,8 @@ const LandPage = () => {
           </div>
 
         </div>
+
+
 
         <Test />
 
