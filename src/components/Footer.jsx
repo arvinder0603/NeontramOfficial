@@ -73,7 +73,7 @@ const Footer = () => {
          
           <ul className='flex justify-center  space-y-2'>
             <li>
-              <Link href='https://www.linkedin.com/company/neontram/'>
+              <Link target='_blank' href='https://www.linkedin.com/company/neontram/'>
                 <h1 className='hover:text-white mt-2'>
                   <AiFillLinkedin size={45} />
                 </h1>

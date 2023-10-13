@@ -27,16 +27,17 @@ const MapPage = () => {
      }
 
   return (
-    <section className="text-gray-600 body-font relative" id="contact">
+    
+    <section className="text-gray-600 body-font relative" id="contacts">
     <div className="absolute inset-0 bg-gray-300">
       <iframe
         width="100%"
         height="100%"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
+        FrameBorder="0"
+        MarginHeight="0"
+        MarginWidth="0"
         title="map"
-        scrolling="no"
+        onScroll="no"
         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=IIIT%20ROPAR+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         style={{ }}
       ></iframe>

@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import bed1 from "../../assets/bed1.png"
@@ -14,6 +15,10 @@ import galc2 from "../../assets/galc2.jpg"
 import galc3 from "../../assets/galc3.png"
 import galc4 from "../../assets/galc4.jpg"
 import Footer from '@/components/Footer'
+import Navi from '@/components/Navi'
+import GallaryNavi from '@/components/GallaryNavi'
+import Link from 'next/link'
+
 
 export const metadata = {
   title: 'Neontram Galary',
@@ -28,10 +33,12 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <div className=' bg-[#F9EBDC]  bg-cover bg-no-repeat   w-[100vw] flex justify-center items-center flex-col ' >
+    <GallaryNavi/>
+      <div className=' bg-[#9AF6FE]  bg-cover bg-no-repeat   w-[100vw] flex justify-center items-center flex-col ' >
         <h1 className='m-4 lg:text-[70px] font-bold text-[40px] text-center mt-12 font-serif'>
           Anti-Pressure Ulcers Neonatal Bed
         </h1>
+        <h1 className='text-center m-4 lg:w-[800px]'>Neonatal Anti-sore bed is designed for NICUs. The size of the bed is accurate to the currently deployed bed. The densely packed alternating pressure channels are uniquely designed for comfortable sleep. The material and adhesives used is biocompatible</h1>
 
 
         <div className="lex justify-center flex-col mt-[200px] ">
@@ -101,7 +108,7 @@ const page = () => {
 
         </div>
         <h1 className='m-45  mt-[200px] font-extrabold lg:text-[70px] text-[35px] font-serif text-center' >Neonatal Formula Milk Dispenser</h1>
-
+       <h1 className='text-center m-4 lg:w-[800px]'>The automatic formula milk dispenser represents a major step forward in the field of infant nutrition, offering parents an innovative, convenient, and efficient solution for preparing formula milk for their infants. With its advanced features and processes, this multi-tasking device is designed to save parents time and effort, while ensuring that their infants receive the best possible nutrition.</h1>
         <div className="lex justify-center flex-col mt-[200px] mb-24 ">
 
           <div className='grid lg:grid-cols-2 gap-8 grid-rows-2  justify-center'>

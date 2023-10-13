@@ -89,8 +89,8 @@ const Carti = ({ cart, updateQuantity, closeCart }) => {
 
 
   return (
-    <div data-aos="fade-up-left"  className="max-w-md mx-auto bg- p-4 md:p-8 border border-gray-300 rounded-lg bg-[#F9EBDC]  shadow-lg">
-      <div className="max-w-md mx-auto bg-[#F9EBDC] p-4 md:p-8 border border-gray-300 rounded-lg shadow-lg">
+    <div data-aos="fade-up-left"  className="max-w-md mx-auto bg- p-4 md:p-8 border border-gray-300 rounded-lg bg-[#4B5381]  shadow-lg">
+      <div className="max-w-md mx-auto bg-[#A5ABCA] p-4 md:p-8 border border-gray-300 rounded-lg shadow-lg">
   <h2 className="text-xl font-semibold mb-4">Cart</h2>
   <ul className="mb-4">
     {cart.map((item, index) => (
