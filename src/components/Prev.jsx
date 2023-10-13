@@ -57,10 +57,10 @@ const Prev = () => {
 
 
   return (
-    <div className='flex flex-col lg:flex-row md:flex-col   justify-center ' id="products">
+    <div className='flex flex-col lg:flex-row md:flex-col  gap-4  justify-center  mb-4' id="products">
      
       
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-600 shadow-2xl rounded-2xl body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
@@ -189,7 +189,7 @@ const Prev = () => {
       </section>
 
 
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-600 shadow-2xl rounded-2xl  body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <Image

@@ -24,7 +24,7 @@ export const Front = () => {
     <div className='grid  lg:grid-cols-2 lg:mt-0  '>
         
         <h1 className='text-white'>.</h1>
-    <div className='flex bg-white  w-auto  rounded-full opacity-50  justify-center flex-col gap-4 items-center text-[30px] text-center font-extrabold'>
+    <div className='flex bg-white  w-auto  rounded-full opacity-80  justify-center flex-col gap-4 items-center text-[30px] text-center font-extrabold'>
       {/* <div className='lg:flex  hidden gap-20 '>
 
        
@@ -39,7 +39,7 @@ export const Front = () => {
        </h1>
       </div>
        
-      <div className='opacity-70 lg:text-[17px] m-6  text-[14px] grid grid-cols-2 gap-8 grid-rows-2'>
+      <div className='opacity-90 lg:text-[17px] m-6  text-[14px] grid grid-cols-2 gap-8 grid-rows-2'>
         <div className='flex  text-center items-center'>
         <AiFillCheckSquare className='text-[#4166f9]' size={30}/>
         <h1>Safety First</h1>

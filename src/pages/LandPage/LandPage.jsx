@@ -27,15 +27,15 @@ const LandPage = () => {
   const [number, setNumber] = useState(''); // Initialize state with an empty string
 
   const handler = (event) => {
-   
+
     setNumber(event.target.value);
-   
-    
+
+
   }
 
-  const SubmitHandler=(e)=>{
+  const SubmitHandler = (e) => {
     e.preventDefault();
-    console.log(number); 
+    console.log(number);
   }
 
   return (
@@ -120,6 +120,34 @@ const LandPage = () => {
 
 
 
+        <div className='text-center text-[18px] font-semibold'>
+          <h1 className='mb-8'>
+            <span className='text-[35px] font-extrabold'>🌟 Exciting Opportunities Await! 🌟</span>
+          </h1>
+
+          <div className='mb-6'>
+            <span className='text-[26px] font-semibold'>👩‍⚕️ Nursing Staff  👨‍⚕️</span>
+            <p className='mt-2'>
+              Are you a compassionate and skilled nurse looking to make a difference? Join our team and be a part of providing top-notch care to those in need.
+            </p>
+          </div>
+
+          <div className='mb-6'>
+            <span className='text-[26px] font-semibold'>🛠️ Embedded Engineer 🖥️</span>
+            <p className='mt-2'>
+              Do you have a passion for technology and a knack for embedded systems? Join us in revolutionizing the digital world with innovative solutions.
+            </p>
+          </div>
+
+          {/* <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+            Apply now and be a part of something extraordinary!
+          </button> */}
+
+          <p className='mt-4 text-gray-600'>
+            #JoinOurTeam #Nursing #Engineering #OpportunityKnocks 🚀
+          </p>
+        </div>
+
 
 
 
@@ -131,7 +159,7 @@ const LandPage = () => {
           <div className='flex flex-col justify-start items-center'>
 
 
-{/* 
+            {/* 
             <input className='h-[40px]  outline-2 outline w-[230px] rounded-xl shadow-2xl'
               type="tel"
               name="phone"
@@ -142,29 +170,31 @@ const LandPage = () => {
             /> */}
 
             <form onSubmit={SubmitHandler} >
-    <div className="flex flex-col rounded-lg overflow-hidden sm:flex-row">
-        <input 
-            className="py-3 px-4 bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100" 
-            type="tel" 
-            name="phone" 
-            id="phone" 
-            placeholder="Enter your phone number" 
-            // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
-            required 
-            onChange={handler}
-        />
-        <button 
-            className="py-3 px-4 bg-gray-700 text-gray-100 font-semibold uppercase hover:bg-gray-600" 
-               type='submit' 
-        >
-            Submit
-        </button>
-    </div>
-</form>
+              <div className="flex flex-col rounded-lg overflow-hidden sm:flex-row">
+                <input
+                  className="py-3 px-4 bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                  required
+                  onChange={handler}
+                />
+                <button
+                  className="py-3 px-4 bg-gray-700 text-gray-100 font-semibold uppercase hover:bg-gray-600"
+                  type='submit'
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
 
           </div>
 
         </div>
+
+
 
 
 

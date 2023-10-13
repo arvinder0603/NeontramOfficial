@@ -19,8 +19,8 @@ const GallaryNavi = () => {
         <h1 className='text-[30px] font-extrabold text-gray-700 m-6'>Neontram</h1>
       </div>
 
-      <ul className='mt-10 text-[20px] text-gray-600 font-semibold cursor-pointer flex gap-8 tracking-wide'>
-            <a className='bg-gray-400 rounded-2xl w-[100px] text-center m-3 shadow-2xl' href='/' target='_blank'>
+      <ul className='mt-10 text-[20px] text-gray-600 font-semibold cursor-pointer justify-center flex gap-8 tracking-wide'>
+            <a className='outline outline-1 h-[40px] w-[70px] text-center rounded-lg lg:flex hidden shadow-2xl' href='/' target='_blank'>
                 Home
               </a>
               
