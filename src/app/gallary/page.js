@@ -8,8 +8,7 @@ import Gal2 from "../../assets/Gal2.jpg"
 import Gal3 from "../../assets/Gal3.jpg"
 import Gal4 from "../../assets/Gal4.jpg"
 import Gal5 from "../../assets/Gal5.jpg"
-import pr from "../../assets/pr2.png"
-import pr2 from "../../assets/pr2.png"
+
 import galc1 from "../../assets/galc1.jpg"
 import galc2 from "../../assets/galc2.jpg"
 import galc3 from "../../assets/galc3.png"
@@ -18,6 +17,8 @@ import Footer from '@/components/Footer'
 import Navi from '@/components/Navi'
 import GallaryNavi from '@/components/GallaryNavi'
 import Link from 'next/link'
+
+
 
 
 export const metadata = {
