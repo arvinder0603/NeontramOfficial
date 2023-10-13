@@ -49,6 +49,8 @@ const MapPage = () => {
          Contact us
         </h2>
         <p className="leading-relaxed mb-5 text-gray-600">
+        Mail us at <span className='text-gray-600 font-extrabold'> contact@neontram.com </span> 
+        <br/>
           We will get back to you asap.
         </p>
         <div className="relative mb-4">
